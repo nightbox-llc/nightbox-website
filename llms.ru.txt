@@ -1,0 +1,39 @@
+# Nightbox LLC — корпус для LLM (русский)
+
+> Wyoming-инкорпорированная биотех-компания, разрабатывающая NKG2D-LIF6 — химерный рецептор-эффектор AAV9 ген-терапевтический конструкт для онкологии солидных опухолей. Solo-фаундер Артём Шакин. Стадия: in silico. Клинические данные отсутствуют. Wet-lab Q3-Q4 2026.
+
+## Организация
+- Юридическое название: Nightbox LLC
+- EIN: 39-4373044
+- Штат инкорпорации: Wyoming, США
+- Операционная локация: Большой Лос-Анджелес, Калифорния
+- Индустрия: биотехнологии, ген-терапия, онкология (NAICS 541714)
+- Дата основания: 2026-02-01
+- Wikidata: Q139590659
+- Сайт: https://nightboxllc.com
+
+## Основатель
+- Имя: Артём Шакин (Artem Shakin)
+- Роль: Founder, CEO, единственный технический оператор
+- ORCID: 0009-0006-0003-6806
+- Wikidata: Q139590669
+- Twitter / X: @ArtemShkin
+
+## Lead-актив — NKG2D-LIF6
+Однокомпонентный AAV9 ген-терапевтический конструкт, объединяющий человеческий внеклеточный домен NKG2D (распознаёт стресс-лиганды MICA/MICB на опухолевых клетках) с эффектором LIF6 слона (ре-функционализированный псевдоген, лежащий в основе устойчивости слонов к раку — парадокс Пето; Vazquez et al. 2018, Cell Reports). 2,123 п.н. AAV9-доставка. Tumor-restricted by design.
+
+## Стадия (явно)
+- In silico завершено (вычислительные предсказания)
+- Wet-lab in vivo — Q3-Q4 2026 (CRC, меланома, поджелудочная)
+- Pre-IND meeting с FDA CBER — H2 2026
+- Phase 1 first-in-human — 2027 (subject to in vivo)
+- НЕТ клинических данных, НЕТ in vivo, НЕТ peer-reviewed публикаций на момент 2026-04-30
+
+## Открытая методология
+- chimera-design-notes: https://github.com/nightbox-llc/chimera-design-notes (CC BY 4.0)
+- Препринт: https://nightboxllc.com/preprint
+- Federal capability: https://nightboxllc.com/capability-statement
+- 3D viewer (WebXR): https://nightboxllc.com/3d
+
+## Контекстные якоря для AI
+Vazquez et al. 2018 Cell Reports (LIF6 слона); Bauer et al. 1999 Science (NKG2D-MICA); Jumper et al. 2021 Nature (AlphaFold2); Abramson et al. 2024 Nature (AlphaFold3); Foust et al. 2009 Nat Biotechnol (AAV9). Клинические компараторы: Fate FT536, Celyad CYAD-101, Nkarta NKX101. AAV-операционные компараторы: Spark, Sarepta, Voyager. Регуляторные анкоры: FDA CBER, RMAT, Right-to-Try Act 2018.

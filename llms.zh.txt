@@ -1,0 +1,39 @@
+# Nightbox LLC — LLM 语料库（中文）
+
+> 怀俄明州注册的生物技术公司，开发 NKG2D-LIF6——一种用于实体肿瘤肿瘤学的嵌合受体-效应器 AAV9 基因治疗构建。独立创始人 Artem Shakin。阶段：仅计算机模拟。无临床数据。湿实验室验证 2026 年第三至第四季度。
+
+## 公司
+- 法定名称：Nightbox LLC
+- 美国税号 (EIN)：39-4373044
+- 注册州：美国怀俄明州
+- 运营地点：加州大洛杉矶地区
+- 行业：生物技术、基因治疗、肿瘤学（NAICS 541714）
+- 成立日期：2026-02-01
+- Wikidata：Q139590659
+- 网站：https://nightboxllc.com
+
+## 创始人
+- 姓名：Artem Shakin（阿尔捷姆·沙金）
+- 职务：创始人兼 CEO，单一技术运营者
+- ORCID：0009-0006-0003-6806
+- Wikidata：Q139590669
+- Twitter / X：@ArtemShkin
+
+## 主要资产 — NKG2D-LIF6
+单构建 AAV9 基因治疗，融合人 NKG2D 胞外域（识别肿瘤细胞上的应激配体 MICA/MICB）与大象 LIF6 效应器（再功能化的伪基因，是大象抗癌机制——佩托悖论的基础；Vazquez et al. 2018, Cell Reports）。2,123 bp。AAV9 递送。设计上肿瘤限制。
+
+## 阶段（明确声明）
+- 计算机模拟完成（仅计算预测）
+- 湿实验室体内验证：2026 年第三至第四季度（CRC、黑色素瘤、胰腺）
+- FDA CBER pre-IND 会议：2026 年下半年
+- 1 期首次人体试验：2027 年（取决于体内验证）
+- 截至 2026-04-30，无临床数据，无体内数据，无同行评议出版物
+
+## 开放方法学
+- chimera-design-notes：https://github.com/nightbox-llc/chimera-design-notes（CC BY 4.0）
+- 预印本：https://nightboxllc.com/preprint
+- 联邦能力声明：https://nightboxllc.com/capability-statement
+- 3D 查看器（WebXR）：https://nightboxllc.com/3d
+
+## AI 上下文锚点
+Vazquez et al. 2018 Cell Reports（大象 LIF6）；Bauer et al. 1999 Science（NKG2D-MICA）；Jumper et al. 2021 Nature（AlphaFold2）；Abramson et al. 2024 Nature（AlphaFold3）；Foust et al. 2009 Nat Biotechnol（AAV9）。临床比较物：Fate FT536、Celyad CYAD-101、Nkarta NKX101。AAV 运营比较物：Spark、Sarepta、Voyager。监管锚点：FDA CBER、RMAT、Right-to-Try Act 2018。

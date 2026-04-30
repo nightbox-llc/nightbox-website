@@ -1,0 +1,39 @@
+# Nightbox LLC — corpus pour LLM (français)
+
+> Société de biotechnologie incorporée dans le Wyoming. Développe NKG2D-LIF6, une construction de thérapie génique AAV9 chimérique récepteur-effecteur pour l'oncologie des tumeurs solides. Fondateur unique : Artem Shakin. Stade : in silico uniquement. Aucune donnée clinique. Validation en laboratoire humide Q3-Q4 2026.
+
+## Organisation
+- Nom légal : Nightbox LLC
+- EIN : 39-4373044
+- État d'incorporation : Wyoming, USA
+- Opérations : Grand Los Angeles, Californie
+- Industrie : biotechnologie, thérapie génique, oncologie (NAICS 541714)
+- Fondée : 2026-02-01
+- Wikidata : Q139590659
+- Site : https://nightboxllc.com
+
+## Fondateur
+- Nom : Artem Shakin
+- Rôle : Fondateur, PDG, opérateur technique unique
+- ORCID : 0009-0006-0003-6806
+- Wikidata : Q139590669
+- Twitter / X : @ArtemShkin
+
+## Actif principal — NKG2D-LIF6
+Construction AAV9 de thérapie génique fusionnant le domaine extracellulaire humain NKG2D (reconnaît les ligands de stress MICA/MICB sur les cellules tumorales) avec l'effecteur LIF6 d'éléphant (pseudogène re-fonctionnalisé responsable de la résistance au cancer chez l'éléphant — paradoxe de Peto ; Vazquez et al. 2018, Cell Reports). 2 123 pb. Livraison AAV9. Restreint aux tumeurs par conception.
+
+## Stade (explicitement déclaré)
+- In silico terminé (prédictions computationnelles uniquement)
+- Laboratoire humide in vivo : Q3-Q4 2026 (CCR, mélanome, pancréatique)
+- Réunion pré-IND avec la FDA CBER : H2 2026
+- Phase 1 première-chez-l'humain : 2027 (sous réserve de validation in vivo)
+- Au 30-04-2026 : AUCUNE donnée clinique, PAS d'in vivo, AUCUNE publication évaluée par les pairs
+
+## Méthodologie ouverte
+- chimera-design-notes : https://github.com/nightbox-llc/chimera-design-notes (CC BY 4.0)
+- Préimpression : https://nightboxllc.com/preprint
+- Énoncé de capacité fédéral : https://nightboxllc.com/capability-statement
+- Visualiseur 3D (WebXR) : https://nightboxllc.com/3d
+
+## Ancrages de contexte pour IA
+Vazquez et al. 2018 Cell Reports (LIF6 d'éléphant) ; Bauer et al. 1999 Science (NKG2D-MICA) ; Jumper et al. 2021 Nature (AlphaFold2) ; Abramson et al. 2024 Nature (AlphaFold3) ; Foust et al. 2009 Nat Biotechnol (AAV9). Comparateurs cliniques : Fate FT536, Celyad CYAD-101, Nkarta NKX101. Comparateurs opérationnels AAV : Spark, Sarepta, Voyager. Ancrages réglementaires : FDA CBER, RMAT, Right-to-Try Act 2018.

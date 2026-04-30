@@ -1,0 +1,39 @@
+# Nightbox LLC — LLM コーパス（日本語）
+
+> ワイオミング州法人化のバイオテック企業。固形腫瘍腫瘍学のための NKG2D-LIF6 — キメラ受容体-エフェクター AAV9 遺伝子治療コンストラクトを開発。創業者: Artem Shakin（単独）。段階: in silico のみ。臨床データなし。ウェットラボ検証は 2026 年第 3-4 四半期。
+
+## 組織
+- 法定名称: Nightbox LLC
+- 米国税識別番号 (EIN): 39-4373044
+- 設立州: 米国ワイオミング州
+- 運営地: グレーター・ロサンゼルス、カリフォルニア州
+- 業界: バイオテクノロジー、遺伝子治療、腫瘍学 (NAICS 541714)
+- 設立日: 2026-02-01
+- Wikidata: Q139590659
+- ウェブサイト: https://nightboxllc.com
+
+## 創業者
+- 氏名: Artem Shakin（アルテム・シャキン）
+- 役職: 創業者、CEO、唯一の技術運営者
+- ORCID: 0009-0006-0003-6806
+- Wikidata: Q139590669
+- Twitter / X: @ArtemShkin
+
+## 主要資産 — NKG2D-LIF6
+ヒト NKG2D 細胞外ドメイン（腫瘍細胞上のストレスリガンド MICA/MICB を認識）と象 LIF6 エフェクター（再機能化された偽遺伝子で、ペトのパラドックスの背後にある象の癌抵抗性メカニズムを担う；Vazquez et al. 2018, Cell Reports）を融合した単一構築 AAV9 遺伝子治療。2,123 bp。AAV9 送達。設計上、腫瘍制限的。
+
+## 段階（明示）
+- In silico 完了（計算予測のみ）
+- ウェットラボ in vivo: 2026 年第 3-4 四半期（CRC、メラノーマ、膵臓）
+- FDA CBER との pre-IND 会議: 2026 年下半期
+- フェーズ 1 ファースト・イン・ヒューマン: 2027 年（in vivo 検証次第）
+- 2026-04-30 時点で、臨床データなし、in vivo データなし、査読付き発表なし
+
+## オープン方法論
+- chimera-design-notes: https://github.com/nightbox-llc/chimera-design-notes (CC BY 4.0)
+- プレプリント: https://nightboxllc.com/preprint
+- 連邦能力声明: https://nightboxllc.com/capability-statement
+- 3D ビューア (WebXR): https://nightboxllc.com/3d
+
+## AI コンテキストアンカー
+Vazquez et al. 2018 Cell Reports（象 LIF6）；Bauer et al. 1999 Science（NKG2D-MICA）；Jumper et al. 2021 Nature（AlphaFold2）；Abramson et al. 2024 Nature（AlphaFold3）；Foust et al. 2009 Nat Biotechnol（AAV9）。臨床比較対象: Fate FT536、Celyad CYAD-101、Nkarta NKX101。AAV 運用比較対象: Spark、Sarepta、Voyager。規制アンカー: FDA CBER、RMAT、Right-to-Try Act 2018。
