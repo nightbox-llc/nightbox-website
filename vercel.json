@@ -16,7 +16,7 @@
         { "key": "Cross-Origin-Resource-Policy", "value": "same-origin" },
         { "key": "X-DNS-Prefetch-Control", "value": "on" },
         { "key": "X-Robots-Tag", "value": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" },
-        { "key": "Link", "value": "</feed.xml>; rel=\"alternate\"; type=\"application/atom+xml\", </feed.json>; rel=\"alternate\"; type=\"application/feed+json\", </llms.txt>; rel=\"alternate\"; type=\"text/markdown\", </llms-full.txt>; rel=\"alternate\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\"" }
+        { "key": "Link", "value": "</feed.xml>; rel=\"alternate\"; type=\"application/atom+xml\", </feed.rss>; rel=\"alternate\"; type=\"application/rss+xml\", </feed.json>; rel=\"alternate\"; type=\"application/feed+json\", </llms.txt>; rel=\"alternate\"; type=\"text/markdown\", </llms-full.txt>; rel=\"alternate\"; type=\"text/plain\", </sitemap.xml>; rel=\"sitemap\"; type=\"application/xml\", </sitemap-news.xml>; rel=\"sitemap\"; type=\"application/xml\", <https://www.wikidata.org/entity/Q139590659>; rel=\"https://schema.org/sameAs\", <https://orcid.org/0009-0006-0003-6806>; rel=\"https://schema.org/sameAs\", <https://github.com/nightbox-llc>; rel=\"https://schema.org/sameAs\", <https://creativecommons.org/licenses/by/4.0/>; rel=\"license\", </team>; rel=\"author\", </.well-known/host-meta>; rel=\"lrdd\"; type=\"application/xrd+xml\"" }
       ]
     },
     {
@@ -45,6 +45,36 @@
       "headers": [
         { "key": "Content-Type", "value": "application/atom+xml; charset=utf-8" },
         { "key": "Cache-Control", "value": "public, max-age=3600" }
+      ]
+    },
+    {
+      "source": "/feed.rss",
+      "headers": [
+        { "key": "Content-Type", "value": "application/rss+xml; charset=utf-8" },
+        { "key": "Cache-Control", "value": "public, max-age=3600" }
+      ]
+    },
+    {
+      "source": "/sitemap-news.xml",
+      "headers": [
+        { "key": "Content-Type", "value": "application/xml; charset=utf-8" },
+        { "key": "Cache-Control", "value": "public, max-age=3600" }
+      ]
+    },
+    {
+      "source": "/.well-known/webfinger",
+      "headers": [
+        { "key": "Content-Type", "value": "application/jrd+json; charset=utf-8" },
+        { "key": "Cache-Control", "value": "public, max-age=86400" },
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    },
+    {
+      "source": "/.well-known/host-meta",
+      "headers": [
+        { "key": "Content-Type", "value": "application/xrd+xml; charset=utf-8" },
+        { "key": "Cache-Control", "value": "public, max-age=86400" },
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
       ]
     },
     {

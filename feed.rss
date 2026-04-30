@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nightbox LLC</title>
+    <link>https://nightboxllc.com</link>
+    <description>Computational biology and gene therapy. NKG2D-LIF6 chimeric receptor-effector AAV9 platform for solid tumor oncology. Open in silico methodology under CC BY 4.0.</description>
+    <language>en-US</language>
+    <pubDate>Wed, 30 Apr 2026 00:00:00 +0000</pubDate>
+    <lastBuildDate>Wed, 30 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Nightbox LLC build pipeline</generator>
+    <atom:link href="https://nightboxllc.com/feed.rss" rel="self" type="application/rss+xml" />
+    <atom:link href="https://nightboxllc.com/feed.xml" rel="alternate" type="application/atom+xml" />
+    <atom:link href="https://nightboxllc.com/feed.json" rel="alternate" type="application/feed+json" />
+    <copyright>CC BY 4.0 — Nightbox LLC 2026</copyright>
+    <managingEditor>press@nightboxllc.com (Artem Shakin)</managingEditor>
+    <webMaster>support@nightboxllc.com (Nightbox LLC)</webMaster>
+    <category>Biotechnology</category>
+    <category>Gene therapy</category>
+    <category>Oncology</category>
+    <category>Computational biology</category>
+    <ttl>1440</ttl>
+    <image>
+      <url>https://nightboxllc.com/logo.svg</url>
+      <title>Nightbox LLC</title>
+      <link>https://nightboxllc.com</link>
+    </image>
+
+    <item>
+      <title>Nightbox LLC publishes complete open in silico design package for NKG2D-LIF6 chimera gene therapy</title>
+      <link>https://nightboxllc.com/news/2026-04-30-launch</link>
+      <guid isPermaLink="true">https://nightboxllc.com/news/2026-04-30-launch</guid>
+      <pubDate>Wed, 30 Apr 2026 03:00:00 +0000</pubDate>
+      <dc:creator>Artem Shakin</dc:creator>
+      <category>Biotechnology</category>
+      <category>Open Science</category>
+      <description>Wyoming biotech publishes complete computational design package, methods, and source repo for an elephant-LIF6 + NKG2D chimeric receptor-effector AAV9 gene therapy under CC BY 4.0. WebXR molecular viewer included.</description>
+    </item>
+
+    <item>
+      <title>NKG2D-LIF6: a single-construct chimeric receptor-effector AAV9 gene therapy — in silico characterization preprint v1</title>
+      <link>https://nightboxllc.com/preprint</link>
+      <guid isPermaLink="true">https://nightboxllc.com/preprint</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Artem Shakin</dc:creator>
+      <category>Preprint</category>
+      <description>2,123 bp NKG2D-LIF6 chimera fusing the human NKG2D extracellular domain with the elephant LIF6 mitochondrial pro-apoptotic effector. Predicted ~99% TGI ceiling on CRC syngeneic models (in silico). Wet-lab validation Q3-Q4 2026.</description>
+    </item>
+
+    <item>
+      <title>NKG2D-LIF6 chimera in silico design notes — open repository released</title>
+      <link>https://github.com/nightbox-llc/chimera-design-notes</link>
+      <guid isPermaLink="true">https://github.com/nightbox-llc/chimera-design-notes</guid>
+      <pubDate>Wed, 30 Apr 2026 02:00:00 +0000</pubDate>
+      <dc:creator>Artem Shakin</dc:creator>
+      <category>Open Source</category>
+      <description>Public source repository covering construct architecture, named computational tools (AlphaFold3, RoseTTAFold, PyMOL, Rosetta), and primary literature references. CC BY 4.0.</description>
+    </item>
+
+    <item>
+      <title>Federal capability statement and SBIR roadmap published</title>
+      <link>https://nightboxllc.com/capability-statement</link>
+      <guid isPermaLink="true">https://nightboxllc.com/capability-statement</guid>
+      <pubDate>Wed, 30 Apr 2026 04:00:00 +0000</pubDate>
+      <dc:creator>Artem Shakin</dc:creator>
+      <category>Federal</category>
+      <description>One-page printable federal capability statement for SBIR/STTR/ARPA-H/BARDA contracting officers, with named PA/RFA solicitation roadmap.</description>
+    </item>
+  </channel>
+</rss>

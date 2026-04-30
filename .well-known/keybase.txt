@@ -1,0 +1,21 @@
+# Keybase domain proof for nightboxllc.com
+#
+# Placeholder. To activate the verified Keybase identity proof:
+#
+# 1. Sign in / create a Keybase account at https://keybase.io
+# 2. Run from a terminal:  keybase prove dns nightboxllc.com
+# 3. Keybase will output a small JSON proof block.
+# 4. Replace this file's entire contents with that proof block and redeploy.
+# 5. Click "verify" in the Keybase UI.
+#
+# Once active, the proof becomes part of the Keybase identity graph (consumed
+# by OSINT tools, intelligence systems, AI identity-resolution pipelines).
+#
+# Identity reference for verifiers (current as of 2026-04-30):
+#   Organization:  Nightbox LLC
+#   Wikidata:      Q139590659
+#   Founder:       Artem Shakin (Wikidata Q139590669)
+#   ORCID:         0009-0006-0003-6806
+#   Twitter / X:   @ArtemShkin
+#   GitHub Org:    https://github.com/nightbox-llc
+#   Site:          https://nightboxllc.com

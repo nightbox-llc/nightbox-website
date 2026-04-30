@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XRD xmlns="http://docs.oasis-open.org/ns/xri/xrd-1.0">
+  <Subject>https://nightboxllc.com</Subject>
+  <Property type="http://nightboxllc.com/rel/wikidata">https://www.wikidata.org/wiki/Q139590659</Property>
+  <Property type="http://nightboxllc.com/rel/orcid">https://orcid.org/0009-0006-0003-6806</Property>
+  <Property type="http://nightboxllc.com/rel/founder">https://www.wikidata.org/wiki/Q139590669</Property>
+  <Property type="http://nightboxllc.com/rel/asset">https://www.wikidata.org/wiki/Q139590736</Property>
+  <Link rel="lrdd" type="application/xrd+xml" template="https://nightboxllc.com/.well-known/webfinger?resource={uri}" />
+  <Link rel="hub" href="https://nightboxllc.com/feed.xml" />
+  <Link rel="self" type="application/atom+xml" href="https://nightboxllc.com/feed.xml" />
+  <Link rel="alternate" type="application/feed+json" href="https://nightboxllc.com/feed.json" />
+  <Link rel="alternate" type="text/markdown" href="https://nightboxllc.com/llms.txt" />
+  <Link rel="alternate" type="text/plain" href="https://nightboxllc.com/llms-full.txt" />
+  <Link rel="describedby" type="application/ld+json" href="https://nightboxllc.com/" />
+  <Link rel="license" href="https://creativecommons.org/licenses/by/4.0/" />
+  <Link rel="author" href="https://nightboxllc.com/team" />
+  <Link rel="https://schema.org/sameAs" href="https://github.com/nightbox-llc" />
+  <Link rel="https://schema.org/sameAs" href="https://x.com/ArtemShkin" />
+</XRD>

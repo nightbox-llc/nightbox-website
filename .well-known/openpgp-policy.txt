@@ -1,0 +1,19 @@
+# OpenPGP usage policy for nightboxllc.com domain
+# Generated 2026-04-30
+#
+# Nightbox LLC supports OpenPGP-encrypted communication for security
+# disclosures, regulatory document transmission, and federal contracting
+# correspondence where the counterparty has an established key.
+#
+# Key discovery follows RFC 7929 (DANE OPENPGPKEY) and the Web Key Directory
+# (WKD) draft specification (https://wiki.gnupg.org/WKD).
+#
+# Founder key fingerprint:
+#   To be published once founder OpenPGP key is generated and uploaded.
+#
+# WKD URL format (when active):
+#   https://nightboxllc.com/.well-known/openpgpkey/hu/<wkd-hash>
+#
+# Until WKD is populated, encrypted communication should be initiated via
+# security@nightboxllc.com using the contact key advertised in
+# /.well-known/security.txt.

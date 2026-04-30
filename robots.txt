@@ -84,7 +84,9 @@ Allow: /
 
 # Discovery
 Sitemap: https://nightboxllc.com/sitemap.xml
+Sitemap: https://nightboxllc.com/sitemap-news.xml
 Sitemap: https://nightboxllc.com/feed.xml
+Sitemap: https://nightboxllc.com/feed.rss
 
 # LLM-specific corpora
 # https://nightboxllc.com/llms.txt

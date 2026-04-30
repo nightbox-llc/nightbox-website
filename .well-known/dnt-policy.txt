@@ -1,0 +1,24 @@
+# Effective: 2026-04-30
+# Site: https://nightboxllc.com
+# Operator: Nightbox LLC (Wyoming, EIN 39-4373044)
+#
+# Nightbox LLC commits to the EFF Do Not Track (DNT) Policy v1.0 for
+# https://nightboxllc.com.
+#
+# Summary:
+#   - We honor the DNT request header from any visitor.
+#   - We do not log or retain identifiable information about visitors who
+#     send DNT, beyond minimal operational telemetry (HTTP status counts).
+#   - We do not share, sell, or rent visitor data with third parties.
+#   - We do not embed third-party trackers, advertising pixels, or fingerprinting
+#     scripts.
+#   - We use first-party static-site infrastructure (Vercel Edge) and a single
+#     first-party agent endpoint (api/chat.js) which does not log identifiable
+#     content from DNT visitors.
+#
+# Discrepancies between this policy and operational reality should be reported
+# to security@nightboxllc.com or via the coordinated-disclosure pipeline at
+# https://nightboxllc.com/.well-known/security.txt.
+#
+# This policy adheres to the format defined at:
+# https://www.eff.org/dnt-policy

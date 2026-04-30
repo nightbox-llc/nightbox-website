@@ -1,0 +1,26 @@
+{
+  "subject": "acct:artem@nightboxllc.com",
+  "aliases": [
+    "https://nightboxllc.com/team",
+    "https://nightboxllc.com/about",
+    "https://orcid.org/0009-0006-0003-6806",
+    "https://www.wikidata.org/entity/Q139590669",
+    "https://x.com/ArtemShkin",
+    "mailto:artem@nightboxllc.com"
+  ],
+  "properties": {
+    "http://schema.org/name": "Artem Shakin",
+    "http://schema.org/jobTitle": "Founder and Chief Executive Officer",
+    "http://schema.org/worksFor": "Nightbox LLC",
+    "http://schema.org/identifier": "ORCID:0009-0006-0003-6806;Wikidata:Q139590669"
+  },
+  "links": [
+    { "rel": "http://webfinger.net/rel/profile-page", "type": "text/html", "href": "https://nightboxllc.com/team" },
+    { "rel": "http://webfinger.net/rel/avatar", "type": "image/svg+xml", "href": "https://nightboxllc.com/logo.svg" },
+    { "rel": "self", "type": "text/html", "href": "https://nightboxllc.com/team" },
+    { "rel": "http://schema.org/sameAs", "href": "https://orcid.org/0009-0006-0003-6806" },
+    { "rel": "http://schema.org/sameAs", "href": "https://www.wikidata.org/entity/Q139590669" },
+    { "rel": "http://schema.org/sameAs", "href": "https://x.com/ArtemShkin" },
+    { "rel": "http://openid.net/specs/connect/1.0/issuer", "href": "https://nightboxllc.com" }
+  ]
+}
