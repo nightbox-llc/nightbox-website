@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="NKG2D: the human natural-killer cell receptor that detects cancer. How MICA/MICB stress ligands mark tumor cells, and why Nightbox uses NKG2D as the detection module in its chimeric gene therapy." />
+  <meta name="keywords" content="NKG2D, MICA, MICB, natural killer cell, NK cell, stress ligand, tumor detection, immunotherapy, Nightbox, gene therapy" />
+  <meta property="og:title" content="NKG2D — The Human Cancer Detector" />
+  <meta property="og:description" content="Your immune system's built-in tumor sensor. The recognition half of NKG2D-LIF6." />
+  <meta property="og:url" content="https://nightboxllc.com/science/nkg2d" />
+  <meta property="og:type" content="article" />
+  <meta property="article:author" content="Artem Shakin" />
+  <meta property="article:published_time" content="2026-04-30" />
+  <title>NKG2D — How Your Immune System Detects Cancer — Nightbox LLC</title>
+  <link rel="stylesheet" href="/styles.css" /><link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "NKG2D: The Human Immune System's Cancer Detector",
+    "author": { "@type": "Person", "name": "Artem Shakin", "url": "https://nightboxllc.com/team" },
+    "publisher": { "@id": "https://nightboxllc.com/#organization" },
+    "datePublished": "2026-04-30",
+    "url": "https://nightboxllc.com/science/nkg2d"
+  }
+  </script>
+</head>
+<body>
+  <div class="bg-grid"></div><div class="bg-glow"></div>
+  <nav class="nav"><div class="nav-inner"><a href="/" class="logo"><span class="logo-mark">◆</span><span class="logo-text">NIGHTBOX</span></a><ul class="nav-links"><li><a href="/science/peto-paradox">Peto's Paradox</a></li><li><a href="/science/lif6">LIF6</a></li><li><a href="/science/nkg2d">NKG2D</a></li><li><a href="/research">Research</a></li></ul><a href="mailto:artem@nightboxllc.com" class="nav-cta">Contact →</a></div></nav>
+
+  <main style="max-width:760px;margin:120px auto 80px;padding:0 24px;color:#cfd2d7;line-height:1.8;">
+    <p style="color:#9ea2ab;font-size:0.85rem;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:8px;">Science · Immunology</p>
+    <h1 class="gradient-text" style="font-size:2.4rem;font-weight:800;margin-bottom:16px;line-height:1.2;">NKG2D: Your Body's Built-In Cancer Sensor</h1>
+    <p style="font-size:1.1rem;color:#9ea2ab;margin-bottom:32px;">The receptor that natural killer cells use to detect stressed and transformed cells. The recognition half of <a href="/research" style="color:#6b5bff;">NKG2D-LIF6</a>.</p>
+
+    <h2 style="font-size:1.5rem;color:#f0f1f5;margin:32px 0 12px;">The basics</h2>
+    <p>NKG2D (also called KLRK1 or CD314) is a receptor found on the surface of natural killer cells, CD8+ T cells, and gamma-delta T cells. Its job is simple: detect cells that are stressed, damaged, or transforming into cancer — and trigger an immune response against them.</p>
+    <p>NKG2D was first characterized in the late 1990s. The landmark paper is Bauer et al. 1999 in Science, which showed that NKG2D binds a family of stress-induced ligands called MICA and MICB (MHC class I chain-related proteins A and B). These ligands are almost completely absent from healthy adult tissue. They show up when a cell is under stress — viral infection, DNA damage, malignant transformation. In practical terms, MICA and MICB are molecular flags that say "something is wrong with this cell."</p>
+    <p>Natural killer cells cruise through the body looking for these flags. When an NK cell's NKG2D receptor finds MICA or MICB on a target cell, it activates and kills the target. This is one of the body's first-line defense mechanisms against early-stage cancer — it catches transformed cells before they can form a tumor mass large enough for the adaptive immune system to notice.</p>
+
+    <h2 style="font-size:1.5rem;color:#f0f1f5;margin:32px 0 12px;">Why NKG2D is good for tumor targeting</h2>
+    <p>The reason NKG2D is attractive as a tumor-targeting module is the expression pattern of its ligands. MICA and MICB are upregulated on cancer cells at roughly 1,400 times the level found on healthy tissue, according to the MICA/B expression atlas compiled from public datasets. That's a massive selectivity window.</p>
+    <p>Compare this to other tumor-targeting strategies. CD19, used in most CAR-T therapies, is present on all B cells — healthy and cancerous — which is why CD19 CAR-T causes B-cell aplasia as a side effect. HER2 is overexpressed on some tumors but also present on heart tissue, which caused fatal cardiotoxicity in early trials. MICA/MICB don't have this problem because healthy cells genuinely don't express them.</p>
+    <p>There are caveats. Tumors can shed MICA/MICB from their surface through metalloprotease-mediated cleavage, creating soluble decoy ligands that can neutralize NKG2D in the tumor microenvironment. This shedding is a known escape mechanism and a real concern for any NKG2D-based therapy. It's one of the open questions in our program.</p>
+
+    <h2 style="font-size:1.5rem;color:#f0f1f5;margin:32px 0 12px;">NKG2D in the clinic</h2>
+    <p>Several companies have explored NKG2D as a targeting moiety for cancer therapy, mostly in the CAR-T/CAR-NK space. Fate Therapeutics has FT536, an iPSC-derived CAR-NK using NKG2D. Celyad Oncology ran clinical trials with CYAD-101, a non-gene-edited allogeneic CAR-T with an NKG2D-based receptor. Nkarta had NKX101, an NKG2D-based CAR-NK.</p>
+    <p>All of these are cell therapies — they require extracting immune cells, engineering them, expanding them, and infusing them back into the patient. That means autologous processing, GMP manufacturing, and per-patient costs in the hundreds of thousands of dollars.</p>
+    <p>The <a href="/" style="color:#6b5bff;">Nightbox</a> approach is different. Instead of putting NKG2D on an engineered immune cell, we use the NKG2D extracellular domain as the recognition module in a gene therapy construct. The NKG2D ectodomain binds MICA/MICB the same way it does on NK cells, but instead of activating an immune cell, it gates the expression of <a href="/science/lif6" style="color:#6b5bff;">LIF6</a> — the elephant apoptosis effector. Detect the tumor, fire the kill switch, no cell processing required. The entire thing is encoded as a single 2,123 bp construct in an AAV9 vector.</p>
+
+    <h2 style="font-size:1.5rem;color:#f0f1f5;margin:32px 0 12px;">The crystal structure</h2>
+    <p>The NKG2D-MICA complex was crystallized and published as PDB entry 1HYR by Li et al. in 2001 (Nature Immunology). The structure shows the C-type lectin-like fold of the NKG2D homodimer gripping the alpha-1 and alpha-2 platform domains of MICA. You can explore this structure interactively in our <a href="/3d" style="color:#6b5bff;">3D molecular viewer</a>.</p>
+    <p>The binding interface covers roughly 930 square angstroms, which is large for a receptor-ligand pair and contributes to the high affinity. The extracellular domain we use in our construct is the portion of NKG2D that forms this binding surface — amino acids 90-216 of the human KLRK1 sequence.</p>
+
+    <h2 style="font-size:1.5rem;color:#f0f1f5;margin:32px 0 12px;">Known risks</h2>
+    <ul style="margin:12px 0 16px 24px;list-style:disc;">
+      <li><strong>Ligand shedding.</strong> Tumors can cleave MICA/MICB to create decoys. This is the single biggest known liability.</li>
+      <li><strong>On-target/off-tumor.</strong> NKG2D ligands can be transiently expressed on some activated immune cells and endothelial cells during inflammation. We need to characterize this in toxicology studies.</li>
+      <li><strong>Engagement of endogenous NK cells.</strong> If the AAV9-delivered construct expresses NKG2D ectodomain on a cell surface, it could inadvertently engage endogenous NKG2D on passing NK cells. Whether this is a feature or a bug depends on context.</li>
+    </ul>
+
+    <p style="color:#9ea2ab;font-size:0.85rem;margin-top:40px;border-top:1px solid #2a2d35;padding-top:16px;">Written by <a href="/team" style="color:#6b5bff;">Artem Shakin</a>, founder of <a href="/" style="color:#6b5bff;">Nightbox LLC</a>. Published 2026-04-30. CC BY 4.0.</p>
+  </main>
+</body>
+</html>

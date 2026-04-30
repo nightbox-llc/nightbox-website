@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AAV9 gene therapy delivery: what it is, how it works, why Nightbox chose it for the NKG2D-LIF6 chimera. From Zolgensma to solid tumor oncology." />
+  <meta name="keywords" content="AAV9, adeno-associated virus, gene therapy, vector, delivery, Zolgensma, Nightbox, NKG2D-LIF6, solid tumor" />
+  <meta property="og:title" content="AAV9 — Gene Therapy Delivery for Solid Tumors" />
+  <meta property="og:description" content="Why AAV9 is the delivery vehicle for Nightbox's NKG2D-LIF6 chimera." />
+  <meta property="og:url" content="https://nightboxllc.com/science/aav9" />
+  <meta property="og:type" content="article" />
+  <meta property="article:author" content="Artem Shakin" />
+  <meta property="article:published_time" content="2026-04-30" />
+  <title>AAV9 Gene Therapy Delivery — Nightbox LLC</title>
+  <link rel="stylesheet" href="/styles.css" /><link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "AAV9: Gene Therapy Delivery for Solid Tumors",
+    "author": { "@type": "Person", "name": "Artem Shakin", "url": "https://nightboxllc.com/team" },
+    "publisher": { "@id": "https://nightboxllc.com/#organization" },
+    "datePublished": "2026-04-30",
+    "url": "https://nightboxllc.com/science/aav9"
+  }
+  </script>
+</head>
+<body>
+  <div class="bg-grid"></div><div class="bg-glow"></div>
+  <nav class="nav"><div class="nav-inner"><a href="/" class="logo"><span class="logo-mark">◆</span><span class="logo-text">NIGHTBOX</span></a><ul class="nav-links"><li><a href="/science/peto-paradox">Peto's Paradox</a></li><li><a href="/science/lif6">LIF6</a></li><li><a href="/science/nkg2d">NKG2D</a></li><li><a href="/research">Research</a></li></ul><a href="mailto:artem@nightboxllc.com" class="nav-cta">Contact →</a></div></nav>
+
+  <main style="max-width:760px;margin:120px auto 80px;padding:0 24px;color:#cfd2d7;line-height:1.8;">
+    <p style="color:#9ea2ab;font-size:0.85rem;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:8px;">Science · Gene Therapy</p>
+    <h1 class="gradient-text" style="font-size:2.4rem;font-weight:800;margin-bottom:16px;line-height:1.2;">AAV9: Delivering Genes to Tumors</h1>
+    <p style="font-size:1.1rem;color:#9ea2ab;margin-bottom:32px;">The vector that carries <a href="/research" style="color:#6b5bff;">NKG2D-LIF6</a> into cells. Same family as Zolgensma, different payload.</p>
+
+    <h2 style="font-size:1.5rem;color:#f0f1f5;margin:32px 0 12px;">What is AAV?</h2>
+    <p>Adeno-associated viruses are small, non-pathogenic viruses that have been engineered into the workhorse delivery vehicle for gene therapy. They can infect human cells and deliver a DNA payload without causing disease — no replication, no integration into the host genome (mostly), no significant immune pathology at therapeutic doses. The FDA has approved several AAV-based gene therapies, including Luxturna (AAV2, for inherited blindness) and Zolgensma (AAV9, for spinal muscular atrophy).</p>
+    <p>AAV comes in many serotypes — AAV1, AAV2, AAV5, AAV8, AAV9, and so on — each with different tissue tropism. Which serotype you pick determines which cells your payload reaches. AAV2 tends to transduce the liver and retina. AAV8 has strong liver tropism. AAV9 crosses the blood-brain barrier and has broad tissue distribution.</p>
+
+    <h2 style="font-size:1.5rem;color:#f0f1f5;margin:32px 0 12px;">Why AAV9?</h2>
+    <p>We chose AAV9 as the starting vector for NKG2D-LIF6 for a few reasons:</p>
+    <ul style="margin:12px 0 16px 24px;list-style:disc;">
+      <li><strong>Broad tissue tropism.</strong> Solid tumors can occur in almost any tissue. We need a vector that doesn't restrict us to one organ. AAV9 has documented transduction across muscle, heart, liver, lung, brain, and other tissues (Foust et al. 2009, Nature Biotechnology).</li>
+      <li><strong>Clinical precedent.</strong> Zolgensma (onasemnogene abeparvovec) is an AAV9 gene therapy approved for SMA in children. It established the regulatory pathway, the manufacturing playbook, and the safety database for systemic AAV9 delivery in humans. We don't have to prove AAV9 is safe from scratch — we have to prove our payload is safe.</li>
+      <li><strong>Packaging capacity.</strong> AAV has a roughly 4.7 kb packaging limit. Our NKG2D-LIF6 construct is 2,123 bp — comfortably under the limit with room for the promoter, ITRs, and regulatory elements.</li>
+      <li><strong>Manufacturing maturity.</strong> AAV9 can be produced by multiple CDMOs at research and GMP grade. Costs have fallen significantly since 2019.</li>
+    </ul>
+    <p>That said, AAV9 is the working assumption, not a final decision. The in vivo program will include a serotype screen. If a different serotype shows better tumor tropism or lower immunogenicity in our models, we'll switch.</p>
+
+    <h2 style="font-size:1.5rem;color:#f0f1f5;margin:32px 0 12px;">How it works with NKG2D-LIF6</h2>
+    <p>The NKG2D-LIF6 construct is packaged between AAV2 inverted terminal repeats (ITRs — these are the sequences the AAV packaging machinery recognizes) and driven by a constitutive promoter. When the AAV9 particle infects a cell, it uncoats in the nucleus and the transgene is expressed as episomal DNA. The cell starts producing the NKG2D-LIF6 chimeric protein.</p>
+    <p>In tumor cells expressing MICA/MICB, the NKG2D ectodomain portion of the chimera binds these stress ligands, and the LIF6 effector portion translocates to the mitochondria and triggers apoptosis. In healthy cells without MICA/MICB expression, the construct is expressed but the chimera has nothing to bind — so the kill mechanism stays inactive. That's the tumor-restriction logic.</p>
+
+    <h2 style="font-size:1.5rem;color:#f0f1f5;margin:32px 0 12px;">Known limitations</h2>
+    <p>AAV gene therapy has real limitations and we should be upfront about them:</p>
+    <ul style="margin:12px 0 16px 24px;list-style:disc;">
+      <li><strong>Pre-existing immunity.</strong> Some patients have neutralizing antibodies against AAV9 from prior natural exposure to wild-type AAV. These patients may need to be excluded from treatment or given immunomodulation first.</li>
+      <li><strong>Immunogenicity.</strong> The AAV capsid can trigger T-cell responses, especially at high doses. Zolgensma patients receive corticosteroids to manage this.</li>
+      <li><strong>Redosing.</strong> After the first AAV9 dose, the immune system typically generates strong anti-AAV9 antibodies, making a second dose of the same serotype ineffective. You essentially get one shot.</li>
+      <li><strong>Hepatotoxicity.</strong> AAV9 has liver tropism alongside its broader distribution. High systemic doses have caused serious liver toxicity in some gene therapy programs. Dose-finding will be critical.</li>
+      <li><strong>Manufacturing cost.</strong> Despite recent cost reductions, AAV manufacturing at GMP grade is still expensive — roughly $100K-$500K per patient for systemic dosing at current prices.</li>
+    </ul>
+
+    <h2 style="font-size:1.5rem;color:#f0f1f5;margin:32px 0 12px;">The economics shift</h2>
+    <p>One of the reasons a bootstrapped company can attempt this in 2026 is that research-grade AAV manufacturing costs have dropped substantially. In 2019, getting research-grade AAV9 at quantities sufficient for mouse studies could easily cost $50K-$100K from academic vector cores. By 2026, competition among CDMOs — PackGene, Aldevron, Vector BioMed, Charles River, and others — has pushed research-grade costs down by roughly an order of magnitude. You can get a small-scale research lot for a few thousand dollars.</p>
+    <p>This doesn't help with GMP manufacturing for human use, which is still expensive. But it means the pre-IND phase — the proof-of-concept animal studies that determine whether the program is worth pursuing — is now accessible to a team that isn't backed by $50M in venture capital. That's the operating window <a href="/" style="color:#6b5bff;">Nightbox</a> occupies.</p>
+
+    <p style="color:#9ea2ab;font-size:0.85rem;margin-top:40px;border-top:1px solid #2a2d35;padding-top:16px;">Written by <a href="/team" style="color:#6b5bff;">Artem Shakin</a>, founder of <a href="/" style="color:#6b5bff;">Nightbox LLC</a>. Published 2026-04-30. CC BY 4.0.</p>
+  </main>
+</body>
+</html>
