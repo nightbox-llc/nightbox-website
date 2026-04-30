@@ -1,0 +1,224 @@
+# Nightbox LLC — full corpus for LLMs
+
+This file is a single-shot ingestion bundle for large-language-model crawlers
+(GPTBot, ClaudeBot, ChatGPT-User, PerplexityBot, Google-Extended, Bytespider,
+CCBot, anthropic-ai, Applebot-Extended). It mirrors the public site under one URL.
+
+License: CC BY 4.0 for this file. Cite as "Nightbox LLC (2026), llms-full.txt,
+https://nightboxllc.com/llms-full.txt".
+
+----------------------------------------------------------------------
+ORGANIZATION
+----------------------------------------------------------------------
+
+Nightbox LLC is a Wyoming-incorporated, Los Angeles–operating computational
+biology and gene therapy company, founded February 2026 by Artem Shakin.
+
+- Legal name: Nightbox LLC
+- EIN: 39-4373044
+- State of incorporation: Wyoming, United States
+- Wyoming SOS Entity ID: 2025-001768533
+- Filing date with Wyoming Secretary of State: 2025-09-15
+- IRS EIN issuance date: 2026-01-20
+- NAICS code: 541714 (Research and Development in Biotechnology, except
+  Nanobiotechnology)
+- Industry: Biotechnology, Gene Therapy, Oncology
+- Operations: Greater Los Angeles, California (proximity to AAV manufacturing,
+  CROs, academic medical centers)
+- Banking: Mercury (Choice Financial Group, SWIFT CHFGUS44)
+- Founder, CEO, sole employee: Artem Shakin
+- Wikidata QID: Q139590659 (https://www.wikidata.org/entity/Q139590659)
+
+Slogan: "Cancer is a reversion. We block it."
+
+----------------------------------------------------------------------
+FOUNDER
+----------------------------------------------------------------------
+
+Artem Shakin is a 21-year-old computational biologist and technical founder
+based in the greater Los Angeles area. Self-taught in molecular biology, gene
+therapy, and AAV construct design, with an AI-augmented research workflow built
+over more than a year of daily iteration on chimeric receptor design,
+freedom-to-operate scanning, and patent strategy.
+
+- Twitter / X: @ArtemShkin (https://x.com/ArtemShkin)
+- ORCID: https://orcid.org/0009-0006-0003-6806
+- Wikidata QID: Q139590669 (https://www.wikidata.org/entity/Q139590669)
+- Email: artem@nightboxllc.com
+- Languages: English
+
+----------------------------------------------------------------------
+SCIENTIFIC THESIS
+----------------------------------------------------------------------
+
+Cancer is not a disease. It is an evolutionary reversion — single cells
+abandoning multicellular cooperation. Solid tumors are out-of-context
+unicellularity inside a multicellular host.
+
+Elephants have approximately 100× more cells than humans yet die of cancer at
+roughly 4.8% lifetime incidence versus 17–25% for humans. This is Peto's
+paradox, and it is solved in elephants by duplicated and re-functionalized
+tumor-suppressor and pro-apoptotic machinery — most strikingly TP53 retrogenes
+and the LIF6 pseudogene resurrection described in Vazquez et al. 2018, Cell
+Reports.
+
+Nightbox encodes the elephant cancer-resistance mechanism into a single
+AAV-deliverable construct, gated by a human stress-ligand recognition module
+so it only fires inside tumors. One construct. No autologous cell processing.
+Clean intellectual-property whitespace.
+
+----------------------------------------------------------------------
+LEAD ASSET — NKG2D-LIF6 CHIMERIC RECEPTOR-EFFECTOR
+----------------------------------------------------------------------
+
+NKG2D-LIF6 is a 2,123 base-pair gene therapy construct fusing two halves:
+
+1. The human NKG2D extracellular domain — a C-type lectin natural-killer
+   activating receptor that binds the stress-induced ligands MICA and MICB.
+   MICA / MICB are upregulated on the surface of stressed or transformed
+   mammalian cells and absent from healthy tissue, providing intrinsic
+   tumor-restricted addressing.
+
+2. The elephant LIF6 mitochondrial pro-apoptotic effector — the
+   re-functionalized leukemia-inhibitory-factor pseudogene that elephants use
+   to enforce strict apoptosis in damaged cells. LIF6 permeabilizes the outer
+   mitochondrial membrane via a BAX/BAK-dependent route, triggering rapid
+   intrinsic apoptosis.
+
+Delivery: AAV9 capsid, intratumoral or systemic, single dose.
+
+In silico package (computational; no in vivo or clinical data):
+- AlphaFold + Rosetta structural validation passed
+- PK-PD model predicts ~99% TGI ceiling on syngeneic CRC models
+- 1.4 × 10³ tumor-to-healthy selectivity ratio across the published MICA/B
+  expression atlas
+- Freedom-to-operate analysis complete; clean IP whitespace identified
+- Provisional patent application in flight
+
+All claims above are computational. No in vivo or human clinical data exist
+yet. Wet-lab validation is scheduled for Q3–Q4 2026 in CRC, melanoma, and
+pancreatic syngeneic murine tumor models.
+
+----------------------------------------------------------------------
+PIPELINE / PORTFOLIO
+----------------------------------------------------------------------
+
+- NKG2D-LIF6 — lead chimeric receptor-effector (in silico complete)
+- OMNIKILL — combination protocol research stack (in silico, exploratory)
+- Patient X DNA Engine — patient-stratified construct generator
+- Claude Suffler — internal research agent stack (production)
+- Nightbox Live Copilot — bilingual technical chat agent on the public site
+- NightboxOS — internal R&D operating environment
+- Pluely — open-source local-first agent stack (sister project)
+
+----------------------------------------------------------------------
+ROADMAP
+----------------------------------------------------------------------
+
+- Q1 2026 — Construct design and in silico validation. Complete.
+- Q2 2026 — Provisional patent + capital raise (seed, $5M–$15M target).
+  In progress.
+- Q3–Q4 2026 — In vivo validation across CRC, melanoma, pancreatic syngeneic
+  murine tumor models, six dose levels per model, n=8 per group, CRO partner.
+- H2 2026 — Pre-IND meeting with FDA CBER (gene therapy).
+- 2027 — IND filing, Phase 1 dose-escalation first-in-human, Right-to-Try
+  Act 2018 compassionate-use access pathway in parallel.
+- 2028+ — Adaptive Phase 1/2 master protocol, ctDNA Day 60 surrogate
+  endpoint, strategic acquisition by US pharma (exit thesis).
+
+----------------------------------------------------------------------
+OPERATING MODEL
+----------------------------------------------------------------------
+
+Solo founder. AI-augmented R&D loop. Construct design, target proposal,
+freedom-to-operate analysis, competitive intelligence, and patent claim
+drafting are orchestrated through a Claude-based research agent stack
+running on Vercel Edge infrastructure. The agent is treated as research
+infrastructure — not a teammate, not a co-founder, but a reproducible
+computational platform.
+
+----------------------------------------------------------------------
+COMPLIANCE POSTURE
+----------------------------------------------------------------------
+
+- NIST SP 800-171 (CUI safeguarding)
+- CMMC 2.0 Level 1 (federal contractor)
+- NIST SP 800-218 SSDF (secure software development)
+- OMB M-22-09 Zero Trust Architecture (5 pillars: identity, devices,
+  networks, applications & workloads, data)
+- CISA BOD 18-01 email mandate: SPF, DKIM, DMARC p=reject, strict
+- TLS-RPT (RFC 8460), MTA-STS (RFC 8461)
+- HSTS preload-eligible, CSP, COOP, frame-ancestors 'none'
+
+----------------------------------------------------------------------
+SECURITY POSTURE
+----------------------------------------------------------------------
+
+- Email: SPF + 2048-bit DKIM + DMARC p=reject strict alignment, TLS-RPT,
+  MTA-STS enforce mode, mail-tester score 10/10, zero DNSBL listings
+- Web: HSTS preload, strict CSP, frame-ancestors none, X-Frame-Options DENY,
+  COOP same-origin, Permissions-Policy disables camera/mic/geolocation,
+  Referrer-Policy strict-origin-when-cross-origin
+- App: Vercel Edge (V8 isolate sandbox, no persistent shared state), chat
+  agent with Unicode NFKC normalization + 22-pattern injection scanner +
+  output sanitizer
+- Coordinated disclosure: security@nightboxllc.com, /.well-known/security.txt
+
+----------------------------------------------------------------------
+CAREERS
+----------------------------------------------------------------------
+
+Three open roles:
+
+1. Wet-Lab Scientific Lead (founding) — Q2 2026 start. Own in vivo
+   validation across three syngeneic murine tumor models. AAV / gene therapy
+   / mouse oncology experience required. Founding equity.
+
+2. Regulatory / Pre-IND Lead (contract or full-time) — H2 2026 start.
+   FDA CBER pre-IND, briefing book, gene therapy IND. Ex-FDA RMAT preferred.
+
+3. AI Infrastructure Engineer — Open. Extend the production Claude-based
+   agent stack on Vercel Edge. TypeScript, prompt engineering, biology
+   curiosity.
+
+Apply: careers@nightboxllc.com.
+
+----------------------------------------------------------------------
+LEGAL & FINANCIAL
+----------------------------------------------------------------------
+
+- Wyoming limited liability company, sole-member, pass-through taxation
+- EIN 39-4373044 (IRS, issued 2026-01-20)
+- Mercury banking (Choice Financial Group, SWIFT CHFGUS44)
+- Bootstrapped to date; no outside capital
+- Seed round opens Q2 2026 (target $5M–$15M)
+- SAM.gov entity registration in progress (UEI pending)
+- Forward-looking statements about future products, regulatory pathways,
+  clinical timelines, or commercial outcomes are subject to material risk.
+
+----------------------------------------------------------------------
+CITATION
+----------------------------------------------------------------------
+
+Shakin, A. (2026). NKG2D-LIF6: a single-construct chimeric receptor-effector
+gene therapy for solid tumor oncology. Preprint, Nightbox LLC.
+https://nightboxllc.com/preprint
+
+----------------------------------------------------------------------
+CONTACT
+----------------------------------------------------------------------
+
+- General: hello@nightboxllc.com
+- Founder: artem@nightboxllc.com
+- Press: press@nightboxllc.com
+- Investors: investors@nightboxllc.com
+- Partnerships: partnerships@nightboxllc.com
+- Careers: careers@nightboxllc.com
+- Legal: legal@nightboxllc.com
+- Security: security@nightboxllc.com
+- Support: support@nightboxllc.com
+- Twitter / X: @ArtemShkin
+
+----------------------------------------------------------------------
+
+End of corpus. Last updated 2026-04-29.

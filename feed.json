@@ -1,0 +1,43 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Nightbox LLC — News",
+  "home_page_url": "https://nightboxllc.com/news",
+  "feed_url": "https://nightboxllc.com/feed.json",
+  "description": "First-in-class chimeric NKG2D-LIF6 gene therapy for solid tumor oncology. News and announcements from Nightbox LLC.",
+  "icon": "https://nightboxllc.com/logo.svg",
+  "favicon": "https://nightboxllc.com/favicon.svg",
+  "language": "en-US",
+  "authors": [
+    {
+      "name": "Artem Shakin",
+      "url": "https://x.com/ArtemShkin",
+      "avatar": "https://nightboxllc.com/logo.svg"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://nightboxllc.com/news#provisional-patent-2026-04-29",
+      "url": "https://nightboxllc.com/news#provisional-patent",
+      "title": "Nightbox LLC Initiates Provisional Patent Filing for Chimeric NKG2D-LIF6 Receptor-Effector Construct",
+      "content_text": "Nightbox LLC has initiated provisional patent filing on the NKG2D-LIF6 chimeric receptor-effector construct, a 2,123 bp single-construct AAV9 gene therapy for solid tumor oncology.",
+      "date_published": "2026-04-29T00:00:00Z",
+      "tags": ["patent", "gene therapy", "NKG2D-LIF6"]
+    },
+    {
+      "id": "https://nightboxllc.com/news#in-silico-2026-04-22",
+      "url": "https://nightboxllc.com/news#in-silico-validation",
+      "title": "Nightbox LLC Completes In Silico Validation of NKG2D-LIF6 Chimera",
+      "content_text": "In silico package complete: AlphaFold + Rosetta structural validation passed; PK-PD model predicts approximately 99% TGI ceiling on syngeneic CRC models; 1.4 x 10^3 tumor-to-healthy selectivity ratio; freedom-to-operate clean.",
+      "date_published": "2026-04-22T00:00:00Z",
+      "tags": ["research", "in silico", "AlphaFold", "Rosetta"]
+    },
+    {
+      "id": "https://nightboxllc.com/news#founded-2026-02-08",
+      "url": "https://nightboxllc.com/news#founded",
+      "title": "Nightbox LLC Founded",
+      "content_text": "Nightbox LLC, a Wyoming-incorporated, Los Angeles operating computational biology and gene therapy company, was founded by Artem Shakin to develop single-construct chimeric receptor-effector gene therapies for solid tumor oncology.",
+      "date_published": "2026-02-08T00:00:00Z",
+      "tags": ["company", "founding"]
+    }
+  ]
+}

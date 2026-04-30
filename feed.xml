@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Nightbox LLC — News</title>
+  <subtitle>First-in-class chimeric NKG2D-LIF6 gene therapy for solid tumor oncology.</subtitle>
+  <link href="https://nightboxllc.com/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://nightboxllc.com/news" rel="alternate" type="text/html"/>
+  <id>https://nightboxllc.com/</id>
+  <updated>2026-04-29T00:00:00Z</updated>
+  <rights>CC BY 4.0</rights>
+  <generator uri="https://nightboxllc.com" version="1.0">Nightbox LLC publishing stack</generator>
+  <author>
+    <name>Artem Shakin</name>
+    <email>artem@nightboxllc.com</email>
+    <uri>https://x.com/ArtemShkin</uri>
+  </author>
+  <icon>https://nightboxllc.com/favicon.svg</icon>
+  <logo>https://nightboxllc.com/logo.svg</logo>
+
+  <entry>
+    <title>Nightbox LLC Initiates Provisional Patent Filing for Chimeric NKG2D-LIF6 Receptor-Effector Construct</title>
+    <link href="https://nightboxllc.com/news#provisional-patent"/>
+    <id>https://nightboxllc.com/news#provisional-patent-2026-04-29</id>
+    <published>2026-04-29T00:00:00Z</published>
+    <updated>2026-04-29T00:00:00Z</updated>
+    <author><name>Artem Shakin</name></author>
+    <category term="patent"/>
+    <category term="gene therapy"/>
+    <summary type="html">Nightbox LLC has initiated provisional patent filing on the NKG2D-LIF6 chimeric receptor-effector construct, a 2,123 bp single-construct AAV9 gene therapy for solid tumor oncology.</summary>
+  </entry>
+
+  <entry>
+    <title>Nightbox LLC Completes In Silico Validation of NKG2D-LIF6 Chimera</title>
+    <link href="https://nightboxllc.com/news#in-silico-validation"/>
+    <id>https://nightboxllc.com/news#in-silico-2026-04-22</id>
+    <published>2026-04-22T00:00:00Z</published>
+    <updated>2026-04-22T00:00:00Z</updated>
+    <author><name>Artem Shakin</name></author>
+    <category term="research"/>
+    <category term="in silico"/>
+    <summary type="html">In silico package complete: AlphaFold + Rosetta structural validation passed; PK-PD model predicts approximately 99% TGI ceiling on syngeneic CRC models; 1.4 × 10³ tumor-to-healthy selectivity ratio; freedom-to-operate clean.</summary>
+  </entry>
+
+  <entry>
+    <title>Nightbox LLC Founded</title>
+    <link href="https://nightboxllc.com/news#founded"/>
+    <id>https://nightboxllc.com/news#founded-2026-02-08</id>
+    <published>2026-02-08T00:00:00Z</published>
+    <updated>2026-02-08T00:00:00Z</updated>
+    <author><name>Artem Shakin</name></author>
+    <category term="company"/>
+    <summary type="html">Nightbox LLC, a Wyoming-incorporated, Los Angeles–operating computational biology and gene therapy company, was founded by Artem Shakin to develop single-construct chimeric receptor-effector gene therapies for solid tumor oncology.</summary>
+  </entry>
+</feed>

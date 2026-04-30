@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Security disclosure policy and infrastructure for Nightbox LLC" />
+  <meta property="og:title" content="Security — Nightbox LLC" />
+  <meta property="og:description" content="Coordinated vulnerability disclosure, email security (DMARC p=reject, DKIM 2048-bit), web security headers." />
+  <meta property="og:url" content="https://nightboxllc.com/security" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://nightboxllc.com/logo.svg" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@ArtemShkin" />
+  <meta name="twitter:creator" content="@ArtemShkin" />
+  <meta property="og:url" content="https://nightboxllc.com/security" />
+  <title>Security — Nightbox LLC</title>
+  <link rel="stylesheet" href="styles.css" /><link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+</head>
+<body>
+  <div class="bg-grid"></div><div class="bg-glow"></div>
+  <nav class="nav"><div class="nav-inner"><a href="/" class="logo"><span class="logo-mark">◆</span><span class="logo-text">NIGHTBOX</span></a><ul class="nav-links"><li><a href="/about">About</a></li><li><a href="/research">Research</a></li><li><a href="/federal">Federal</a></li><li><a href="/security">Security</a></li><li><a href="/press">Press</a></li></ul><a href="mailto:security@nightboxllc.com" class="nav-cta">Disclose →</a></div></nav>
+  <main style="max-width:780px;margin:120px auto 80px;padding:0 24px;color:#cfd2d7;line-height:1.7;">
+    <h1 class="gradient-text" style="font-size:2.4rem;font-weight:800;margin-bottom:24px;">Security</h1>
+    <p style="font-size:1.1rem;margin-bottom:24px;">We take coordinated vulnerability disclosure seriously. The contact channel below is monitored continuously.</p>
+
+    <h2 style="font-size:1.3rem;color:#f0f1f5;margin:32px 0 12px;">Coordinated disclosure</h2>
+    <p>Email: <a href="mailto:security@nightboxllc.com" style="color:#6b5bff;">security@nightboxllc.com</a><br/>
+    Machine-readable policy: <a href="/.well-known/security.txt" style="color:#6b5bff;">/.well-known/security.txt</a></p>
+    <p style="margin-top:8px;">We acknowledge all good-faith reports within 72 hours and provide a remediation timeline within 7 days. Public credit on request.</p>
+
+    <h2 style="font-size:1.3rem;color:#f0f1f5;margin:32px 0 12px;">Email security posture</h2>
+    <ul style="margin:8px 0 16px 24px;list-style:disc;">
+      <li><strong>SPF</strong> with Google sender authorization</li>
+      <li><strong>DKIM</strong> 2048-bit RSA, Google Workspace-managed</li>
+      <li><strong>DMARC</strong> p=reject, strict alignment (BOD 18-01 federal grade)</li>
+      <li><strong>TLS-RPT</strong> RFC 8460 reporting enabled</li>
+      <li><strong>MTA-STS</strong> RFC 8461 enforce mode policy published</li>
+      <li><strong>MX</strong> Google smtp inbound (TLS 1.3)</li>
+    </ul>
+
+    <h2 style="font-size:1.3rem;color:#f0f1f5;margin:32px 0 12px;">Web security posture</h2>
+    <ul style="margin:8px 0 16px 24px;list-style:disc;">
+      <li><strong>HSTS preload-eligible</strong> (max-age=63072000; includeSubDomains; preload)</li>
+      <li><strong>Content Security Policy</strong> default-src 'self', frame-ancestors 'none'</li>
+      <li><strong>X-Frame-Options</strong> DENY · <strong>X-Content-Type-Options</strong> nosniff</li>
+      <li><strong>Cross-Origin Opener / Resource Policy</strong> same-origin</li>
+      <li><strong>Permissions Policy</strong> camera, microphone, geolocation disabled</li>
+      <li><strong>Referrer Policy</strong> strict-origin-when-cross-origin</li>
+    </ul>
+
+    <h2 style="font-size:1.3rem;color:#f0f1f5;margin:32px 0 12px;">Application security posture</h2>
+    <ul style="margin:8px 0 16px 24px;list-style:disc;">
+      <li>Vercel Edge runtime — V8 isolate sandbox, no persistent shared state</li>
+      <li>Chat agent: Unicode NFKC normalization, 22-pattern injection scanner, output sanitizer for tokens / paths / DNA sequences / infrastructure keywords</li>
+      <li>Brand-cloak: provider details never leak to client; all responses identify as Claude</li>
+      <li>No persistent customer data in client-facing services</li>
+    </ul>
+
+    <h2 style="font-size:1.3rem;color:#f0f1f5;margin:32px 0 12px;">Out-of-scope</h2>
+    <ul style="margin:8px 0 16px 24px;list-style:disc;">
+      <li>Reports requiring physical access to founder devices</li>
+      <li>Social engineering of staff</li>
+      <li>Theoretical attacks without working proof of concept</li>
+    </ul>
+  </main>
+</body>
+</html>

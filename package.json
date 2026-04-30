@@ -1,0 +1,11 @@
+{
+  "name": "nightbox-website",
+  "version": "1.0.0",
+  "description": "Nightbox LLC — Computational biology and gene therapy. Official site.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "echo 'Static site, no build step.'"
+  },
+  "dependencies": {}
+}

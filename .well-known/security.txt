@@ -1,0 +1,11 @@
+Contact: mailto:security@nightboxllc.com
+Contact: mailto:artem@nightboxllc.com
+Expires: 2027-04-29T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://nightboxllc.com/.well-known/security.txt
+Policy: https://nightboxllc.com/#security
+Acknowledgments: https://nightboxllc.com/#security
+
+# Nightbox LLC security disclosure policy
+# Please report security vulnerabilities responsibly.
+# We acknowledge all good-faith reports within 72 hours.

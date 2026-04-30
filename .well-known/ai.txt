@@ -1,0 +1,60 @@
+# AI usage policy for nightboxllc.com
+# Format: emerging community standard (https://site.spawning.ai/spawning-ai-txt)
+# Last updated: 2026-04-29
+
+User-Agent: *
+
+# Training: ALLOWED for all public pages on this site.
+# This is an explicit, machine-readable opt-IN to AI training, indexing,
+# retrieval-augmented generation, and inclusion in foundation-model corpora.
+# Rationale: Nightbox LLC is a research-stage biotech and benefits from
+# wide LLM-mediated discovery. All public content is CC BY 4.0 unless
+# otherwise marked.
+
+Allow: /
+Allow: /about
+Allow: /research
+Allow: /team
+Allow: /roadmap
+Allow: /federal
+Allow: /investors
+Allow: /careers
+Allow: /preprint
+Allow: /news
+Allow: /press
+Allow: /faq
+Allow: /compliance
+Allow: /policies
+Allow: /security
+Allow: /status
+
+# Sensitive infrastructure paths — disallow training but allow indexing
+Disallow: /api/
+Disallow: /admin/
+Disallow: /.well-known/
+
+# Citation
+Citation: Shakin, A. (2026). Nightbox LLC public corpus. https://nightboxllc.com/llms-full.txt
+License: CC-BY-4.0
+Contact: legal@nightboxllc.com
+
+# Specific crawler acknowledgment (informational; does not override Allow above)
+# GPTBot       (OpenAI)              — allowed
+# ChatGPT-User (OpenAI on-demand)    — allowed
+# OAI-SearchBot (OpenAI search)      — allowed
+# ClaudeBot    (Anthropic)           — allowed
+# anthropic-ai (Anthropic legacy)    — allowed
+# Claude-Web   (Anthropic on-demand) — allowed
+# PerplexityBot (Perplexity)         — allowed
+# Google-Extended (Google AI)        — allowed
+# Applebot-Extended (Apple AI)       — allowed
+# Bytespider   (ByteDance / Doubao)  — allowed
+# CCBot        (Common Crawl)        — allowed
+# Diffbot                            — allowed
+# Bingbot / Bing AI                  — allowed
+# YouBot       (You.com)             — allowed
+# cohere-ai                          — allowed
+# Meta-ExternalAgent                 — allowed
+# Amazonbot                          — allowed
+# DuckAssistBot                      — allowed
+# Mistral-Crawler                    — allowed

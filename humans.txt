@@ -1,0 +1,46 @@
+/* TEAM */
+
+Founder & CEO: Artem Shakin
+Discipline: Computational biology, gene therapy, AI-augmented R&D
+Site: https://nightboxllc.com
+Twitter: @ArtemShkin
+Location: Greater Los Angeles, California, USA
+Email: artem@nightboxllc.com
+
+/* COMPANY */
+
+Name: Nightbox LLC
+Founded: 2026-02
+State of Incorporation: Wyoming, USA
+Operations: Greater Los Angeles, California
+Industry: Biotechnology / Gene Therapy / Solid Tumor Oncology
+NAICS: 541714
+EIN: 39-4373044
+Lead Asset: NKG2D-LIF6 chimeric receptor-effector AAV9 platform
+Slogan: Cancer is a reversion. We block it.
+
+/* AGENT INFRASTRUCTURE */
+
+Research agent: Anthropic Claude (via Vercel AI Gateway)
+Runtime: Vercel Edge (V8 isolate sandbox)
+Stack: TypeScript, Node, Anthropic SDK, custom prompt-router
+Public chat agent: Nightbox Live Copilot (bilingual EN/RU)
+
+/* THANKS */
+
+To every researcher whose published work made the chimera possible:
+- Vazquez et al. (2018) for characterizing elephant LIF6
+- Sulak et al. (2016) for elephant TP53 copy-number biology
+- Abegglen et al. (2015) for the foundational elephant cancer-resistance work
+- Bauer et al. (1999) for the original NKG2D-MICA characterization
+
+/* SITE */
+
+Last update: 2026/04
+Standards: HTML5, CSS3, JSON-LD (schema.org), Atom 1.0, JSON Feed 1.1
+Discoverability: /llms.txt, /llms-full.txt, /.well-known/ai.txt
+Feeds: /feed.xml, /feed.json
+Components: Vanilla, Vercel Edge, Anthropic Claude
+Software: Built with one founder + one AI agent
+
+# Wyoming-incorporated. LA-area operating. Bootstrapped.

@@ -1,0 +1,6 @@
+# IAB Tech Lab Authorized Digital Sellers (ads.txt)
+# Nightbox LLC does not sell programmatic ad inventory.
+# This file exists to make that explicit to crawlers and aggregators.
+# https://iabtechlab.com/ads-txt/
+
+placeholder.example.com, 0, DIRECT

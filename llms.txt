@@ -1,0 +1,64 @@
+# Nightbox LLC
+
+> Wyoming-incorporated, Los Angeles–operating computational biology and gene therapy company. Lead asset: NKG2D-LIF6, a single-construct chimeric receptor-effector AAV9 gene therapy for solid tumor oncology, fusing the human NKG2D stress-ligand recognition module with the elephant LIF6 mitochondrial-apoptosis effector behind Peto's paradox. Founded February 2026 by Artem Shakin. Solo founder, AI-augmented R&D loop. Bootstrapped pre-seed; seed round opens Q2 2026.
+
+## Organization
+
+- Legal name: Nightbox LLC
+- EIN: 39-4373044
+- State of incorporation: Wyoming, United States
+- Operations: Greater Los Angeles, California
+- Industry: Biotechnology (NAICS 541714)
+- Founded: 2026-02-01
+- Founder & CEO: Artem Shakin
+- Site: https://nightboxllc.com
+- Wikidata: https://www.wikidata.org/entity/Q139590659
+- Contact: artem@nightboxllc.com
+
+## Founder
+
+- Name: Artem Shakin
+- Role: Founder, CEO, sole technical operator
+- Discipline: Computational biology, gene therapy, AI-augmented R&D
+- Twitter / X: @ArtemShkin (https://x.com/ArtemShkin)
+- ORCID: https://orcid.org/0009-0006-0003-6806
+- Wikidata: https://www.wikidata.org/entity/Q139590669
+- Email: artem@nightboxllc.com
+- Born: 2005
+
+## Lead asset — NKG2D-LIF6
+
+- Construct length: 2,123 bp
+- Delivery: AAV9
+- Mechanism: tumor-restricted recognition of stress ligands MICA / MICB via the human NKG2D extracellular domain, gating the elephant LIF6 mitochondrial pro-apoptotic effector
+- In silico package: AlphaFold + Rosetta structural validation; PK-PD model predicts ~99% TGI ceiling on CRC syngeneic models; 1.4 × 10³ tumor-to-healthy selectivity ratio across the MICA/B atlas; freedom-to-operate clean
+- IP: provisional patent in flight
+- Status: in vivo validation Q3–Q4 2026; pre-IND H2 2026; IND + Phase 1 first-in-human 2027
+
+## Pages
+
+- [Home](https://nightboxllc.com/): one-line thesis, lead asset, status
+- [About](https://nightboxllc.com/about): mission, approach, founder story, legal
+- [Research](https://nightboxllc.com/research): construct design, in silico results, mechanism diagram
+- [Team](https://nightboxllc.com/team): founder + AI agent stack as research infrastructure
+- [Roadmap](https://nightboxllc.com/roadmap): construct → pre-IND → IND → Phase 1 timeline
+- [Federal](https://nightboxllc.com/federal): full portfolio brief for federal grant programs (NCI SBIR, ARPA-H, BARDA, NSF SBIR)
+- [Investors](https://nightboxllc.com/investors): seed terms, use of capital, exit thesis
+- [Careers](https://nightboxllc.com/careers): wet-lab scientific lead, regulatory / pre-IND lead, AI infrastructure engineer
+- [Preprint](https://nightboxllc.com/preprint): the NKG2D-LIF6 design paper (CC BY 4.0)
+- [News](https://nightboxllc.com/news): announcements
+- [Press](https://nightboxllc.com/press): media kit, fact sheet, logo
+- [Compliance](https://nightboxllc.com/compliance): NIST 800-171, CMMC 2.0, OMB M-22-09 Zero Trust posture
+- [Security](https://nightboxllc.com/security): coordinated disclosure, email + web + application security posture
+- [Status](https://nightboxllc.com/status): operational uptime, email auth pass rate, incident history
+- [Policies](https://nightboxllc.com/policies): operational policies
+- [FAQ](https://nightboxllc.com/faq): frequently asked questions
+
+## Optional
+
+- [Privacy](https://nightboxllc.com/privacy)
+- [Terms](https://nightboxllc.com/terms)
+- [security.txt](https://nightboxllc.com/.well-known/security.txt): RFC 9116 disclosure policy
+- [sitemap.xml](https://nightboxllc.com/sitemap.xml)
+- [feed.xml](https://nightboxllc.com/feed.xml): Atom feed
+- [feed.json](https://nightboxllc.com/feed.json): JSON Feed

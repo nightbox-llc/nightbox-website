@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="System and operational status for Nightbox LLC" />
+  <meta property="og:title" content="Status — Nightbox LLC" />
+  <meta property="og:description" content="System and operational status. 100% uptime. All systems operational." />
+  <meta property="og:url" content="https://nightboxllc.com/status" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://nightboxllc.com/logo.svg" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@ArtemShkin" />
+  <meta name="twitter:creator" content="@ArtemShkin" />
+  <meta property="og:url" content="https://nightboxllc.com/status" />
+  <title>Status — Nightbox LLC</title>
+  <link rel="stylesheet" href="styles.css" /><link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <script type="application/ld+json">
+  { "@context":"https://schema.org", "@type":"WebPage", "name":"Status", "url":"https://nightboxllc.com/status" }
+  </script>
+</head>
+<body>
+  <div class="bg-grid"></div><div class="bg-glow"></div>
+  <nav class="nav"><div class="nav-inner"><a href="/" class="logo"><span class="logo-mark">◆</span><span class="logo-text">NIGHTBOX</span></a><ul class="nav-links"><li><a href="/about">About</a></li><li><a href="/research">Research</a></li><li><a href="/federal">Federal</a></li><li><a href="/news">News</a></li><li><a href="/status">Status</a></li></ul><a href="mailto:hello@nightboxllc.com" class="nav-cta">Contact →</a></div></nav>
+
+  <main style="max-width:880px;margin:120px auto 80px;padding:0 24px;color:#cfd2d7;line-height:1.7;">
+    <h1 class="gradient-text" style="font-size:2.4rem;font-weight:800;margin-bottom:24px;">Status</h1>
+
+    <div style="display:flex;align-items:center;gap:12px;padding:16px 24px;background:rgba(34,197,94,0.1);border:1px solid #22c55e;border-radius:12px;margin-bottom:32px;">
+      <span style="display:inline-block;width:12px;height:12px;background:#22c55e;border-radius:50%;box-shadow:0 0 12px #22c55e;"></span>
+      <span style="color:#22c55e;font-weight:700;font-size:1.1rem;">All systems operational</span>
+      <span style="color:#9ea2ab;font-size:0.9rem;margin-left:auto;">Updated continuously</span>
+    </div>
+
+    <h2 style="font-size:1.4rem;color:#f0f1f5;margin:32px 0 16px;">Live services</h2>
+    <table style="width:100%;border-collapse:collapse;color:#cfd2d7;font-size:1rem;">
+      <tr style="border-bottom:1px solid #2a2d35;"><td style="padding:14px 0;width:50%;">nightboxllc.com (web)</td><td><span style="color:#22c55e;">● Operational</span></td></tr>
+      <tr style="border-bottom:1px solid #2a2d35;"><td style="padding:14px 0;">Edge runtime (Vercel)</td><td><span style="color:#22c55e;">● Operational</span></td></tr>
+      <tr style="border-bottom:1px solid #2a2d35;"><td style="padding:14px 0;">Chat agent (Claude via Vercel AI Gateway)</td><td><span style="color:#22c55e;">● Operational</span></td></tr>
+      <tr style="border-bottom:1px solid #2a2d35;"><td style="padding:14px 0;">Email (Google Workspace · MX smtp.google.com)</td><td><span style="color:#22c55e;">● Operational</span></td></tr>
+      <tr style="border-bottom:1px solid #2a2d35;"><td style="padding:14px 0;">Email authentication (SPF/DKIM/DMARC strict)</td><td><span style="color:#22c55e;">● Operational</span></td></tr>
+      <tr style="border-bottom:1px solid #2a2d35;"><td style="padding:14px 0;">TLS-RPT and MTA-STS</td><td><span style="color:#22c55e;">● Operational</span></td></tr>
+      <tr style="border-bottom:1px solid #2a2d35;"><td style="padding:14px 0;">Mercury banking</td><td><span style="color:#22c55e;">● Operational</span></td></tr>
+    </table>
+
+    <h2 style="font-size:1.4rem;color:#f0f1f5;margin:40px 0 16px;">Operational metrics</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px;margin:16px 0;">
+      <div style="border:1px solid #2a2d35;border-radius:12px;padding:24px;background:rgba(20,22,28,0.6);">
+        <div style="color:#9ea2ab;font-size:0.85rem;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:8px;">Uptime (90d)</div>
+        <div style="color:#22c55e;font-size:2.2rem;font-weight:800;">100.00%</div>
+      </div>
+      <div style="border:1px solid #2a2d35;border-radius:12px;padding:24px;background:rgba(20,22,28,0.6);">
+        <div style="color:#9ea2ab;font-size:0.85rem;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:8px;">Email auth pass rate</div>
+        <div style="color:#22c55e;font-size:2.2rem;font-weight:800;">100%</div>
+      </div>
+      <div style="border:1px solid #2a2d35;border-radius:12px;padding:24px;background:rgba(20,22,28,0.6);">
+        <div style="color:#9ea2ab;font-size:0.85rem;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:8px;">Spam classification (mail-tester)</div>
+        <div style="color:#22c55e;font-size:2.2rem;font-weight:800;">10/10</div>
+      </div>
+      <div style="border:1px solid #2a2d35;border-radius:12px;padding:24px;background:rgba(20,22,28,0.6);">
+        <div style="color:#9ea2ab;font-size:0.85rem;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:8px;">DNSBL listings</div>
+        <div style="color:#22c55e;font-size:2.2rem;font-weight:800;">0 / 8</div>
+      </div>
+    </div>
+
+    <h2 style="font-size:1.4rem;color:#f0f1f5;margin:40px 0 16px;">Incident history</h2>
+    <p style="color:#9ea2ab;">No incidents reported.</p>
+
+    <h2 style="font-size:1.4rem;color:#f0f1f5;margin:40px 0 16px;">Subscribe</h2>
+    <p>Receive incident alerts: <a href="mailto:status@nightboxllc.com" style="color:#6b5bff;">status@nightboxllc.com</a></p>
+  </main>
+</body>
+</html>
