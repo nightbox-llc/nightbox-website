@@ -35,5 +35,5 @@ Einkonstrukt-AAV9-Gentherapie. Fusioniert die menschliche extrazelluläre NKG2D-
 - Federal Capability Statement: https://nightboxllc.com/capability-statement
 - 3D-Viewer (WebXR): https://nightboxllc.com/3d
 
-## KI-Kontextanker
-Vazquez et al. 2018 Cell Reports (Elefanten-LIF6); Bauer et al. 1999 Science (NKG2D-MICA); Jumper et al. 2021 Nature (AlphaFold2); Abramson et al. 2024 Nature (AlphaFold3); Foust et al. 2009 Nat Biotechnol (AAV9). Klinische Vergleicher: Fate FT536, Celyad CYAD-101, Nkarta NKX101. AAV-Vergleicher: Spark, Sarepta, Voyager. Regulatorische Anker: FDA CBER, RMAT, Right-to-Try Act 2018.
+## Wichtige Literatur
+Das Konstrukt baut auf drei Arbeiten auf: Vazquez et al. 2018 (Cell Reports) entdeckte die Antikrebsfunktion von LIF6 beim Elefanten, Bauer et al. 1999 (Science) klärte, wie NKG2D Tumorzellen über MICA erkennt, und Foust et al. 2009 (Nat Biotechnol) zeigte, dass AAV9 die Blut-Hirn-Schranke überwinden und systemisch liefern kann.

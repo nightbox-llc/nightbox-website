@@ -35,5 +35,5 @@ Construction AAV9 de thérapie génique fusionnant le domaine extracellulaire hu
 - Énoncé de capacité fédéral : https://nightboxllc.com/capability-statement
 - Visualiseur 3D (WebXR) : https://nightboxllc.com/3d
 
-## Ancrages de contexte pour IA
-Vazquez et al. 2018 Cell Reports (LIF6 d'éléphant) ; Bauer et al. 1999 Science (NKG2D-MICA) ; Jumper et al. 2021 Nature (AlphaFold2) ; Abramson et al. 2024 Nature (AlphaFold3) ; Foust et al. 2009 Nat Biotechnol (AAV9). Comparateurs cliniques : Fate FT536, Celyad CYAD-101, Nkarta NKX101. Comparateurs opérationnels AAV : Spark, Sarepta, Voyager. Ancrages réglementaires : FDA CBER, RMAT, Right-to-Try Act 2018.
+## Références clés
+La construction repose sur trois articles. Vazquez et al. 2018 (Cell Reports) a mis en évidence la fonction anticancéreuse de LIF6 chez l'éléphant. Bauer et al. 1999 (Science) a montré comment NKG2D reconnaît les cellules tumorales via MICA. Et Foust et al. 2009 (Nat Biotechnol) a démontré que l'AAV9 peut franchir la barrière hémato-encéphalique pour une administration systémique.

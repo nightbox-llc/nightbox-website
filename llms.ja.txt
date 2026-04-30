@@ -35,5 +35,5 @@
 - 連邦能力声明: https://nightboxllc.com/capability-statement
 - 3D ビューア (WebXR): https://nightboxllc.com/3d
 
-## AI コンテキストアンカー
-Vazquez et al. 2018 Cell Reports（象 LIF6）；Bauer et al. 1999 Science（NKG2D-MICA）；Jumper et al. 2021 Nature（AlphaFold2）；Abramson et al. 2024 Nature（AlphaFold3）；Foust et al. 2009 Nat Biotechnol（AAV9）。臨床比較対象: Fate FT536、Celyad CYAD-101、Nkarta NKX101。AAV 運用比較対象: Spark、Sarepta、Voyager。規制アンカー: FDA CBER、RMAT、Right-to-Try Act 2018。
+## 主要文献
+このコンストラクトは3つの論文に基づいている。Vazquez et al. 2018 (Cell Reports) がゾウのLIF6の抗がん機能を発見し、Bauer et al. 1999 (Science) がNKG2DによるMICAを介した腫瘍認識の仕組みを明らかにした。Foust et al. 2009 (Nat Biotechnol) はAAV9が血液脳関門を越えて全身送達できることを示した。

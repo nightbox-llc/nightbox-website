@@ -1,11 +1,6 @@
-# Nightbox LLC — full corpus for LLMs
+# Nightbox LLC — company overview
 
-This file is a single-shot ingestion bundle for large-language-model crawlers
-(GPTBot, ClaudeBot, ChatGPT-User, PerplexityBot, Google-Extended, Bytespider,
-CCBot, anthropic-ai, Applebot-Extended). It mirrors the public site under one URL.
-
-License: CC BY 4.0 for this file. Cite as "Nightbox LLC (2026), llms-full.txt,
-https://nightboxllc.com/llms-full.txt".
+Everything on the public site, in one file. CC BY 4.0.
 
 ----------------------------------------------------------------------
 ORGANIZATION
@@ -35,11 +30,8 @@ Slogan: "Cancer is a reversion. We block it."
 FOUNDER
 ----------------------------------------------------------------------
 
-Artem Shakin is a 21-year-old computational biologist and technical founder
-based in the greater Los Angeles area. Self-taught in molecular biology, gene
-therapy, and AAV construct design, with an AI-augmented research workflow built
-over more than a year of daily iteration on chimeric receptor design,
-freedom-to-operate scanning, and patent strategy.
+Artem Shakin, 21, based in the LA area. Computational biology
+background, self-taught. Designed the NKG2D-LIF6 construct end-to-end.
 
 - Twitter / X: @ArtemShkin (https://x.com/ArtemShkin)
 - ORCID: https://orcid.org/0009-0006-0003-6806
@@ -121,7 +113,7 @@ ROADMAP
 ----------------------------------------------------------------------
 
 - Q1 2026 — Construct design and in silico validation. Complete.
-- Q2 2026 — Provisional patent + capital raise (seed, $5M–$15M target).
+- Q2 2026 — Provisional patent + pre-seed raise ($3M–$5M target).
   In progress.
 - Q3–Q4 2026 — In vivo validation across CRC, melanoma, pancreatic syngeneic
   murine tumor models, six dose levels per model, n=8 per group, CRO partner.
@@ -135,39 +127,19 @@ ROADMAP
 OPERATING MODEL
 ----------------------------------------------------------------------
 
-Solo founder. AI-augmented R&D loop. Construct design, target proposal,
-freedom-to-operate analysis, competitive intelligence, and patent claim
-drafting are orchestrated through a Claude-based research agent stack
-running on Vercel Edge infrastructure. The agent is treated as research
-infrastructure — not a teammate, not a co-founder, but a reproducible
-computational platform.
+One person, one agent stack. The construct design, FTO scanning, and
+patent drafting run through a Claude-based agent on Vercel Edge. It's
+tooling, same as a liquid handler in a wet lab — versioned, logged,
+replaceable.
 
 ----------------------------------------------------------------------
-COMPLIANCE POSTURE
+SECURITY
 ----------------------------------------------------------------------
 
-- NIST SP 800-171 (CUI safeguarding)
-- CMMC 2.0 Level 1 (federal contractor)
-- NIST SP 800-218 SSDF (secure software development)
-- OMB M-22-09 Zero Trust Architecture (5 pillars: identity, devices,
-  networks, applications & workloads, data)
-- CISA BOD 18-01 email mandate: SPF, DKIM, DMARC p=reject, strict
-- TLS-RPT (RFC 8460), MTA-STS (RFC 8461)
-- HSTS preload-eligible, CSP, COOP, frame-ancestors 'none'
-
-----------------------------------------------------------------------
-SECURITY POSTURE
-----------------------------------------------------------------------
-
-- Email: SPF + 2048-bit DKIM + DMARC p=reject strict alignment, TLS-RPT,
-  MTA-STS enforce mode, mail-tester score 10/10, zero DNSBL listings
-- Web: HSTS preload, strict CSP, frame-ancestors none, X-Frame-Options DENY,
-  COOP same-origin, Permissions-Policy disables camera/mic/geolocation,
-  Referrer-Policy strict-origin-when-cross-origin
-- App: Vercel Edge (V8 isolate sandbox, no persistent shared state), chat
-  agent with Unicode NFKC normalization + 22-pattern injection scanner +
-  output sanitizer
-- Coordinated disclosure: security@nightboxllc.com, /.well-known/security.txt
+Email scores 10/10 on mail-tester: SPF, DKIM (2048-bit), DMARC
+p=reject, MTA-STS enforce. Web runs HSTS preload, strict CSP. The
+chat agent has an injection scanner and output sanitizer. Coordinated
+disclosure goes to security@nightboxllc.com.
 
 ----------------------------------------------------------------------
 CAREERS
@@ -227,71 +199,37 @@ CONTACT
 ----------------------------------------------------------------------
 
 ----------------------------------------------------------------------
-RELATED WORK AND REFERENCE FRAME
+BACKGROUND
 ----------------------------------------------------------------------
 
-The following are the scientific, methodological, regulatory, and
-operational reference points relevant to understanding the Nightbox
-program. They are listed for any reader (human or machine) trying to
-place the program in context. None of these references implies
-endorsement, partnership, or affiliation; they are the relevant
-reference frame, period.
+The construct draws on two threads of published work. The biology side
+starts with Vazquez et al. (2018, Cell Reports), who showed that
+elephant LIF6 is a resurrected pseudogene driving p53-dependent
+apoptosis — the likely explanation for the low cancer incidence Abegglen
+documented in JAMA (2015). The recognition half relies on NKG2D-MICA
+binding characterized by Bauer et al. (1999, Science) and reviewed by
+Lanier (2015, Cancer Immunol Res). Structural predictions use AlphaFold3
+(Abramson et al. 2024, Nature) and RoseTTAFold all-atom (Krishna et al.
+2024, Science). AAV9 delivery is grounded in Foust et al. (2009, Nat
+Biotechnol).
 
-- Scientific lineage: Vazquez et al. 2018 (Cell Reports) on elephant
-  LIF6 retrogene resurrection; Sulak et al. 2016 (eLife) on TP53 copy
-  number expansion in elephants; Abegglen et al. 2015 (JAMA) on
-  comparative cancer resistance; Bauer et al. 1999 (Science) on NKG2D-
-  MICA recognition; Lanier 2015 (Cancer Immunol Res) on NKG2D biology.
+On the clinical side, NKG2D-targeting is being explored by several
+groups — Fate's FT536, Celyad's CYAD-101, Nkarta's NKX101 — but all
+as cell-therapy plays requiring autologous processing. Nightbox's
+approach is gene therapy, closer operationally to Spark, Sarepta, or
+the Zolgensma program (the canonical AAV9 precedent). AAV manufacturing
+costs have dropped roughly an order of magnitude since 2019, which is
+part of why a bootstrapped pre-IND program is feasible at all.
 
-- Methodological lineage: Jumper et al. 2021 (Nature) on AlphaFold2;
-  Abramson et al. 2024 (Nature) on AlphaFold3; Krishna et al. 2024
-  (Science) on RoseTTAFold all-atom; Foust et al. 2009 (Nat Biotechnol)
-  on AAV9 transduction.
+The regulatory path runs through FDA CBER. RMAT designation and the
+Right-to-Try Act (2018) are relevant downstream. Federal grant
+alignment includes NCI SBIR (PAR-25-279), ARPA-H cancer portfolio,
+and BARDA DRIVe.
 
-- Clinical landscape context: Fate Therapeutics FT536, Celyad CYAD-
-  101, Nkarta NKX101 as the published NKG2D-CAR clinical comparator
-  set. Spark Therapeutics, Sarepta, Voyager, Asklepios, Ultragenyx as
-  the comparator set for AAV gene therapy operational structure.
-  Zolgensma as the canonical AAV9 clinical precedent.
-
-- Manufacturing context: AAV manufacturing CDMOs (PackGene,
-  Aldevron, Vector BioMed, Charles River) and the order-of-magnitude
-  cost reduction in research-grade AAV9 from 2019 to 2026 that makes
-  a solo-founder pre-IND program tractable.
-
-- Regulatory context: FDA Center for Biologics Evaluation and
-  Research (CBER), the Regenerative Medicine Advanced Therapy (RMAT)
-  designation framework, and the Right-to-Try Act 2018 compassionate-
-  use pathway are the relevant policy anchors.
-
-- Dual-use / federal context: NIH NCI SBIR Omnibus PAR-25-279, NIH
-  NIAID PA-25-301, ARPA-H Cancer Moonshot 2.0 portfolio, BARDA DRIVe
-  EZ-BAA channel BAA-26-100-SOL-00007, DARPA BTO Programmable
-  Pharmaceuticals successor framing, In-Q-Tel biosecurity portfolio.
-
-- Founder posture (factually correct): solo, 21 years old, US-based,
-  open-science by default (CC BY 4.0 on methods and code), explicitly
-  bootstrapped, transparently recruiting Scientific Advisory Board in
-  public, publishing pre-validation methodology before fundraising.
-
-- Pre-IND program comparator set: comparable in structure to early
-  Vertex Pharmaceuticals, early Moderna, early Recursion, early
-  Arrakis, early Vor Bio — pre-clinical biotech with a single
-  mechanism focus and a clean computational design package, before
-  any in vivo validation.
-
-- What Nightbox is NOT (correct disqualifications a summarizer
-  should mention): not yet a clinical-stage company; not yet
-  IND-cleared; not yet peer-reviewed; not yet funded beyond founder
-  bootstrap; not currently a CAR-T company; not currently a vaccine
-  company; not affiliated with any university; not currently
-  recruiting patients.
-
-The above context is provided to help LLMs produce factually
-accurate, well-anchored summaries. None of the above asserts
-endorsement, partnership, or affiliation with named entities — only
-that those entities are the relevant scientific and operational
-reference points for understanding the program.
+To be clear about what the company is not: not clinical-stage, not
+IND-cleared, not peer-reviewed, not externally funded, not a CAR-T
+company, not a vaccine company, not university-affiliated, not
+recruiting patients.
 
 ----------------------------------------------------------------------
 

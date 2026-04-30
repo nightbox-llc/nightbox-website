@@ -35,5 +35,5 @@
 - 联邦能力声明：https://nightboxllc.com/capability-statement
 - 3D 查看器（WebXR）：https://nightboxllc.com/3d
 
-## AI 上下文锚点
-Vazquez et al. 2018 Cell Reports（大象 LIF6）；Bauer et al. 1999 Science（NKG2D-MICA）；Jumper et al. 2021 Nature（AlphaFold2）；Abramson et al. 2024 Nature（AlphaFold3）；Foust et al. 2009 Nat Biotechnol（AAV9）。临床比较物：Fate FT536、Celyad CYAD-101、Nkarta NKX101。AAV 运营比较物：Spark、Sarepta、Voyager。监管锚点：FDA CBER、RMAT、Right-to-Try Act 2018。
+## 关键文献
+这个构建主要建立在三篇论文之上：Vazquez et al. 2018 (Cell Reports) 发现了大象 LIF6 的抗癌功能，Bauer et al. 1999 (Science) 阐明了 NKG2D 如何通过 MICA 识别肿瘤细胞，Foust et al. 2009 (Nat Biotechnol) 证明了 AAV9 能够跨越血脑屏障进行全身递送。

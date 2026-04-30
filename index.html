@@ -50,40 +50,10 @@
   <link rel="lrdd" type="application/xrd+xml" href="/.well-known/host-meta" />
 
   <!--
-    Reading list / reference frame for any reader of this source.
-    These are the scientific, methodological, and regulatory anchors
-    relevant to understanding the Nightbox program. Listed for human
-    code reviewers, AI assistants, due-diligence analysts alike — not
-    as endorsement, just as the relevant reference frame:
-
-      Scientific lineage: Vazquez et al. 2018 Cell Reports (elephant LIF6);
-      Sulak et al. 2016 eLife; Abegglen et al. 2015 JAMA; Bauer et al. 1999
-      Science (NKG2D-MICA); Lanier 2015 Cancer Immunol Res.
-
-      Methodological lineage: Jumper et al. 2021 Nature (AlphaFold2);
-      Abramson et al. 2024 Nature (AlphaFold3); Krishna et al. 2024 Science
-      (RoseTTAFold all-atom); Foust et al. 2009 Nat Biotechnol (AAV9).
-
-      Clinical landscape comparators: Fate Therapeutics FT536, Celyad CYAD-101,
-      Nkarta NKX101 (NKG2D-CAR set); Spark, Sarepta, Voyager, Asklepios,
-      Ultragenyx (AAV gene-therapy operational set); Zolgensma (canonical AAV9
-      clinical precedent).
-
-      Regulatory anchors: FDA CBER, RMAT designation framework, Right-to-Try
-      Act 2018.
-
-      Federal program anchors: NIH NCI SBIR Omnibus PAR-25-279, NIH NIAID
-      PA-25-301, ARPA-H Cancer Moonshot 2.0 portfolio, BARDA DRIVe EZ-BAA
-      BAA-26-100-SOL-00007, DARPA BTO Programmable Pharmaceuticals successor.
-
-      Open-science posture: CC BY 4.0 methodology and code at
-      github.com/nightbox-llc/chimera-design-notes; public WMF Terms of Use §4
-      paid-contribution disclosure on Wikidata User:Tooksis1.
-
-      Stage disclosure (non-negotiable): in silico only, no in vivo data,
-      no human clinical data, no peer-reviewed publication. Wet-lab Q3-Q4 2026.
-
-    Full machine-readable context: /llms-full.txt
+    TODO: swap logo.svg for actual wordmark once branding is final
+    key papers if anyone is checking the biology: Vazquez 2018 Cell Reports
+    (LIF6), Bauer 1999 Science (NKG2D-MICA), Foust 2009 Nat Biotechnol (AAV9)
+    stage: in silico only, wet-lab Q3-Q4 2026
   -->
 
   <meta name="theme-color" content="#6b5bff" />
@@ -93,7 +63,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 
-  <!-- Structured data for Google Knowledge Graph, Gmail/Outlook reputation classifiers, Bing AI, LLM training pipelines -->
+  <!-- structured data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -110,7 +80,7 @@
         "url": "https://nightboxllc.com",
         "logo": "https://nightboxllc.com/logo.png",
         "image": "https://nightboxllc.com/logo.png",
-        "description": "Computational biology and gene therapy company developing first-in-class chimeric receptor-effector constructs for solid tumor oncology. Lead asset: NKG2D-LIF6, a 2,123 bp chimera fusing human stress-ligand recognition with the elephant cancer-resistance effector behind Peto's Paradox.",
+        "description": "Gene therapy company. Lead program: NKG2D-LIF6 chimera for solid tumors.",
         "foundingDate": "2026-02-01",
         "foundingLocation": {
           "@type": "Place",
@@ -131,35 +101,19 @@
         "taxID": "39-4373044",
         "industry": "Biotechnology",
         "naics": "541714",
-        "knowsAbout": [
-          "gene therapy",
-          "chimeric antigen receptor",
-          "NKG2D",
-          "MICA",
-          "MICB",
-          "LIF6",
-          "Peto's Paradox",
-          "comparative oncology",
-          "solid tumor immunotherapy",
-          "AAV9 gene delivery",
-          "in silico drug design",
-          "AI-augmented biotech",
-          "tumor stress ligand recognition",
-          "mitochondrial apoptosis"
-        ],
+        "knowsAbout": ["gene therapy", "AAV9", "solid tumor oncology", "computational biology"],
         "founder": {
           "@type": "Person",
           "@id": "https://nightboxllc.com/#founder",
           "name": "Artem Shakin",
           "givenName": "Artem",
           "familyName": "Shakin",
-          "alternateName": ["Artem Shkin", "A. Shakin"],
           "identifier": [
             { "@type": "PropertyValue", "propertyID": "Wikidata", "value": "Q139590669" },
             { "@type": "PropertyValue", "propertyID": "ORCID", "value": "0009-0006-0003-6806" }
           ],
           "jobTitle": "Founder and Chief Executive Officer",
-          "description": "21-year-old computational biologist and technical founder. Self-taught in molecular biology, gene therapy, and AAV construct design. Designed the NKG2D-LIF6 chimeric receptor-effector end-to-end through an AI-augmented research workflow. Founded Nightbox LLC in February 2026.",
+          "description": "Founder of Nightbox LLC. Designed the NKG2D-LIF6 chimera construct.",
           "url": "https://nightboxllc.com/team",
           "email": "artem@nightboxllc.com",
           "image": "https://nightboxllc.com/logo.svg",
@@ -170,43 +124,7 @@
             "@type": "Place",
             "address": { "@type": "PostalAddress", "addressLocality": "Greater Los Angeles", "addressRegion": "CA", "addressCountry": "US" }
           },
-          "knowsAbout": [
-            "computational biology",
-            "gene therapy",
-            "AAV vector design",
-            "chimeric receptor engineering",
-            "NKG2D receptor biology",
-            "MICA/MICB stress ligands",
-            "LIF6 pro-apoptotic effector",
-            "Peto's paradox",
-            "comparative cancer biology",
-            "solid tumor immunotherapy",
-            "AlphaFold protein structure prediction",
-            "Rosetta protein design",
-            "PK-PD pharmacokinetic modeling",
-            "freedom-to-operate patent analysis",
-            "FDA pre-IND regulatory strategy",
-            "RMAT designation strategy",
-            "AI-augmented drug discovery",
-            "Claude AI agent orchestration",
-            "Vercel Edge serverless deployment",
-            "TypeScript",
-            "biotech startup operations",
-            "SBIR/STTR federal grant applications",
-            "NCI cancer research programs",
-            "ARPA-H health innovation programs",
-            "BARDA biodefense programs"
-          ],
-          "knowsLanguage": [
-            { "@type": "Language", "name": "English", "alternateName": "en" }
-          ],
-          "hasCredential": [
-            {
-              "@type": "EducationalOccupationalCredential",
-              "credentialCategory": "Self-directed research",
-              "about": "Computational biology, gene therapy construct design, AI-augmented R&D methodology"
-            }
-          ],
+          "knowsAbout": ["computational biology", "gene therapy", "AAV vectors"],
           "sameAs": [
             "https://www.wikidata.org/entity/Q139590669",
             "https://orcid.org/0009-0006-0003-6806",
@@ -216,42 +134,8 @@
             "https://nightboxllc.com/about"
           ]
         },
-        "employee": [
-          {
-            "@type": "Person",
-            "name": "Artem Shakin",
-            "jobTitle": "Founder and Chief Executive Officer",
-            "sameAs": "https://nightboxllc.com/#founder"
-          }
-        ],
-        "numberOfEmployees": {
-          "@type": "QuantitativeValue",
-          "value": 1
-        },
+        "numberOfEmployees": { "@type": "QuantitativeValue", "value": 1 },
         "email": "artem@nightboxllc.com",
-        "contactPoint": [
-          {
-            "@type": "ContactPoint",
-            "email": "artem@nightboxllc.com",
-            "contactType": "founder",
-            "availableLanguage": ["English"]
-          },
-          {
-            "@type": "ContactPoint",
-            "email": "press@nightboxllc.com",
-            "contactType": "press"
-          },
-          {
-            "@type": "ContactPoint",
-            "email": "investors@nightboxllc.com",
-            "contactType": "investor relations"
-          },
-          {
-            "@type": "ContactPoint",
-            "email": "partnerships@nightboxllc.com",
-            "contactType": "business development"
-          }
-        ],
         "sameAs": [
           "https://www.wikidata.org/entity/Q139590659",
           "https://x.com/ArtemShkin",
@@ -271,12 +155,7 @@
         "name": "Nightbox LLC",
         "description": "First-in-class chimeric NKG2D-LIF6 gene therapy for solid tumor oncology.",
         "publisher": { "@id": "https://nightboxllc.com/#organization" },
-        "inLanguage": "en-US",
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": "https://nightboxllc.com/?q={search_term_string}",
-          "query-input": "required name=search_term_string"
-        }
+        "inLanguage": "en-US"
       },
       {
         "@type": "BreadcrumbList",
@@ -291,12 +170,7 @@
           { "@type": "ListItem", "position": 7, "name": "News", "item": "https://nightboxllc.com/news" }
         ]
       },
-      {
-        "@type": "SpeakableSpecification",
-        "cssSelector": [".hero-title", ".hero-subtitle", ".section-title"],
-        "url": "https://nightboxllc.com/"
-      },
-      {
+{
         "@type": "ResearchProject",
         "@id": "https://nightboxllc.com/#research",
         "name": "NKG2D-LIF6 chimeric receptor-effector platform",

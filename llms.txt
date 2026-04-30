@@ -1,6 +1,6 @@
 # Nightbox LLC
 
-> Wyoming-incorporated, Los Angeles–operating computational biology and gene therapy company. Lead asset: NKG2D-LIF6, a single-construct chimeric receptor-effector AAV9 gene therapy for solid tumor oncology, fusing the human NKG2D stress-ligand recognition module with the elephant LIF6 mitochondrial-apoptosis effector behind Peto's paradox. Founded February 2026 by Artem Shakin. Solo founder, AI-augmented R&D loop. Bootstrapped pre-seed; seed round opens Q2 2026.
+> Gene therapy company out of Wyoming / LA. One construct — NKG2D fused to elephant LIF6 — delivered via AAV9 for solid tumors. Founded Feb 2026 by Artem Shakin. Pre-seed stage, no outside capital yet.
 
 ## Organization
 

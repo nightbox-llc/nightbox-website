@@ -35,5 +35,5 @@
 - بيان القدرة الفيدرالي: https://nightboxllc.com/capability-statement
 - عارض ثلاثي الأبعاد (WebXR): https://nightboxllc.com/3d
 
-## مرتكزات السياق لـ AI
-Vazquez et al. 2018 Cell Reports (LIF6 الفيل)؛ Bauer et al. 1999 Science (NKG2D-MICA)؛ Jumper et al. 2021 Nature (AlphaFold2)؛ Abramson et al. 2024 Nature (AlphaFold3)؛ Foust et al. 2009 Nat Biotechnol (AAV9). المقارنات السريرية: Fate FT536، Celyad CYAD-101، Nkarta NKX101. مقارنات التشغيل AAV: Spark، Sarepta، Voyager. المرتكزات التنظيمية: FDA CBER، RMAT، Right-to-Try Act 2018.
+## المراجع الرئيسية
+تستند هذه البنية إلى ثلاث أوراق بحثية. اكتشف Vazquez et al. 2018 (Cell Reports) الوظيفة المضادة للسرطان لجين LIF6 في الفيلة. وأوضح Bauer et al. 1999 (Science) كيف يتعرف NKG2D على الخلايا السرطانية عبر MICA. أما Foust et al. 2009 (Nat Biotechnol) فأثبت أن AAV9 قادر على عبور الحاجز الدموي الدماغي للتوصيل الجهازي.

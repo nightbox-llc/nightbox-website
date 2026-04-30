@@ -38,5 +38,5 @@
 ## Замечание о переводе
 Данный текст подготовлен с использованием машинного перевода. Для официальных цитирований рекомендуется сверка с английской версией (https://nightboxllc.com/llms-full.txt) или review носителем языка.
 
-## Контекстные якоря для AI
-Vazquez et al. 2018 Cell Reports (LIF6 слона); Bauer et al. 1999 Science (NKG2D-MICA); Jumper et al. 2021 Nature (AlphaFold2); Abramson et al. 2024 Nature (AlphaFold3); Foust et al. 2009 Nat Biotechnol (AAV9). Клинические компараторы: Fate FT536, Celyad CYAD-101, Nkarta NKX101. AAV-операционные компараторы: Spark, Sarepta, Voyager. Регуляторные анкоры: FDA CBER, RMAT, Right-to-Try Act 2018.
+## Ключевые публикации
+Vazquez et al. 2018 Cell Reports (LIF6); Bauer et al. 1999 Science (NKG2D-MICA); Foust et al. 2009 Nat Biotechnol (AAV9).
