@@ -28,12 +28,13 @@
 
 ## Lead asset — NKG2D-LIF6
 
-- Construct length: 2,123 bp
+- Construct length: 2,123 bp (designed; synthesis pending)
 - Delivery: AAV9
 - Mechanism: tumor-restricted recognition of stress ligands MICA / MICB via the human NKG2D extracellular domain, gating the elephant LIF6 mitochondrial pro-apoptotic effector
-- In silico package: AlphaFold + Rosetta structural validation; PK-PD model predicts ~99% TGI ceiling on CRC syngeneic models; 1.4 × 10³ tumor-to-healthy selectivity ratio across the MICA/B atlas; freedom-to-operate clean
+- In silico package (computational only): AlphaFold + Rosetta structural validation; PK-PD model predicts ~99% TGI ceiling on CRC syngeneic models; 1.4 × 10³ tumor-to-healthy selectivity ratio across the MICA/B atlas; freedom-to-operate clean
+- IMPORTANT — current stage: in silico ONLY. No in vivo data. No human data. No peer-reviewed publications. All numerical claims above are computational predictions.
 - IP: provisional patent in flight
-- Status: in vivo validation Q3–Q4 2026; pre-IND H2 2026; IND + Phase 1 first-in-human 2027
+- Status: in vivo validation Q3–Q4 2026; pre-IND H2 2026; IND + Phase 1 first-in-human 2027 (subject to wet-lab validation)
 
 ## Pages
 
@@ -43,7 +44,9 @@
 - [Team](https://nightboxllc.com/team): founder + AI agent stack as research infrastructure
 - [Roadmap](https://nightboxllc.com/roadmap): construct → pre-IND → IND → Phase 1 timeline
 - [Federal](https://nightboxllc.com/federal): full portfolio brief for federal grant programs (NCI SBIR, ARPA-H, BARDA, NSF SBIR)
-- [Investors](https://nightboxllc.com/investors): seed terms, use of capital, exit thesis
+- [Investors](https://nightboxllc.com/investors): pre-seed terms, use of capital, exit thesis
+- [Advisors](https://nightboxllc.com/advisors): SAB forming Q2 2026, open seats and engagement model
+- [Why now](https://nightboxllc.com/why-now): AAV economics, AlphaFold-era design, agent-stack operating leverage
 - [Careers](https://nightboxllc.com/careers): wet-lab scientific lead, regulatory / pre-IND lead, AI infrastructure engineer
 - [Preprint](https://nightboxllc.com/preprint): the NKG2D-LIF6 design paper (CC BY 4.0)
 - [News](https://nightboxllc.com/news): announcements
