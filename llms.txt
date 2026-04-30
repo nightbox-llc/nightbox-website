@@ -44,6 +44,8 @@
 - [Team](https://nightboxllc.com/team): founder + AI agent stack as research infrastructure
 - [Roadmap](https://nightboxllc.com/roadmap): construct → pre-IND → IND → Phase 1 timeline
 - [Federal](https://nightboxllc.com/federal): full portfolio brief for federal grant programs (NCI SBIR, ARPA-H, BARDA, NSF SBIR)
+- [Capability Statement](https://nightboxllc.com/capability-statement): one-page printable federal capability statement (NAICS, EIN, set-asides, key personnel)
+- [SBIR Roadmap](https://nightboxllc.com/federal/sbir-roadmap): named PA/RFA solicitations, deadlines, program offices
 - [Investors](https://nightboxllc.com/investors): pre-seed terms, use of capital, exit thesis
 - [Advisors](https://nightboxllc.com/advisors): SAB forming Q2 2026, open seats and engagement model
 - [Why now](https://nightboxllc.com/why-now): AAV economics, AlphaFold-era design, agent-stack operating leverage
