@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Interactive 3D molecular viewer for the NKG2D-MICA recognition complex (PDB 1HYR) and the NKG2D-LIF6 chimera architecture. WebXR / AR / VR enabled." />
+  <meta name="keywords" content="NKG2D, MICA, LIF6, chimera, gene therapy, 3D molecular viewer, WebXR, AR, VR, AAV9, structural biology, AlphaFold, RoseTTAFold" />
+  <meta property="og:title" content="3D Molecular Viewer — NKG2D-LIF6 Chimera — Nightbox LLC" />
+  <meta property="og:description" content="Interactive 3D structure of the NKG2D-MICA recognition complex and the chimera architecture. WebXR enabled — view in AR/VR on Quest, Vision Pro, AR phones." />
+  <meta property="og:url" content="https://nightboxllc.com/3d" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://nightboxllc.com/logo.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@ArtemShkin" />
+  <meta name="twitter:creator" content="@ArtemShkin" />
+  <title>3D Molecular Viewer — NKG2D-LIF6 Chimera — Nightbox LLC</title>
+  <link rel="stylesheet" href="styles.css" /><link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "3DModel",
+    "name": "NKG2D-MICA recognition complex (PDB 1HYR)",
+    "description": "Interactive 3D structure of the human NKG2D extracellular domain bound to MICA, the recognition module of the NKG2D-LIF6 chimera under development at Nightbox LLC.",
+    "url": "https://nightboxllc.com/3d",
+    "encodingFormat": "PDB",
+    "creator": { "@id": "https://nightboxllc.com/#organization" },
+    "isAccessibleForFree": true,
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/"
+  }
+  </script>
+  <style>
+    .viewer-stage { width: 100%; height: 600px; background: #0a0c10; border: 1px solid #2a2d35; border-radius: 12px; margin: 16px 0; position: relative; overflow: hidden; }
+    .viewer-controls { display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0; }
+    .viewer-controls button { background: rgba(107,91,255,0.12); border: 1px solid rgba(107,91,255,0.4); color: #cfd2d7; padding: 8px 14px; border-radius: 6px; cursor: pointer; font-size: 0.9rem; }
+    .viewer-controls button:hover { background: rgba(107,91,255,0.25); }
+    .pdb-meta { background: rgba(20,22,28,0.6); border: 1px solid #2a2d35; border-radius: 10px; padding: 16px; margin: 16px 0; font-size: 0.92rem; }
+    .pdb-meta dt { color: #9ea2ab; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; margin-top: 8px; }
+    .pdb-meta dd { color: #f0f1f5; margin: 4px 0 0 0; }
+  </style>
+</head>
+<body>
+  <div class="bg-grid"></div><div class="bg-glow"></div>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="/" class="logo"><span class="logo-mark">◆</span><span class="logo-text">NIGHTBOX</span></a>
+      <ul class="nav-links">
+        <li><a href="/research">Research</a></li>
+        <li><a href="/3d">3D Viewer</a></li>
+        <li><a href="/preprint">Preprint</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+      <a href="mailto:research@nightboxllc.com" class="nav-cta">Research contact →</a>
+    </div>
+  </nav>
+
+  <main style="max-width:980px;margin:120px auto 80px;padding:0 24px;color:#cfd2d7;line-height:1.7;">
+    <p style="color:#9ea2ab;font-size:0.85rem;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:8px;">Interactive structural biology · Open data</p>
+    <h1 class="gradient-text" style="font-size:2.4rem;font-weight:800;margin-bottom:16px;">NKG2D recognition complex — 3D molecular viewer</h1>
+    <p style="font-size:1.1rem;margin-bottom:16px;">
+      Interactive 3D structure of the human NKG2D extracellular domain bound to MICA — the published crystallographic basis for the recognition module of the NKG2D-LIF6 chimera. <strong>WebXR enabled:</strong> view in AR on a phone, in VR on a Quest or Vision Pro, or rotate it here in your browser.
+    </p>
+
+    <div class="pdb-meta">
+      <dl>
+        <dt>Reference structure</dt>
+        <dd><strong>PDB 1HYR</strong> — Crystal structure of the human NKG2D-MICA complex (Li et al. 2001, <em>Nature Immunology</em>)</dd>
+        <dt>Source</dt>
+        <dd><a href="https://www.rcsb.org/structure/1HYR" style="color:#6b5bff;" target="_blank">RCSB Protein Data Bank</a> (CC0 public domain, NCBI)</dd>
+        <dt>Resolution</dt>
+        <dd>2.7 Å</dd>
+        <dt>Components shown</dt>
+        <dd>NKG2D extracellular domain (chain A) · MICA α1+α2 platform (chain B)</dd>
+        <dt>Relevance to Nightbox</dt>
+        <dd>The NKG2D extracellular domain shown here (residues 79-216) is the recognition module of the NKG2D-LIF6 chimera (NBX-001). The MICA ligand shown here is the tumor-restricted stress signal the chimera responds to.</dd>
+      </dl>
+    </div>
+
+    <div class="viewer-controls">
+      <button onclick="loadPdb('1hyr')">NKG2D-MICA (1HYR)</button>
+      <button onclick="loadPdb('1kcg')">NKG2D-MICA alt (1KCG)</button>
+      <button onclick="loadPdb('1mpu')">NKG2D-ULBP3 (1MPU)</button>
+      <button onclick="setStyle('cartoon')">Cartoon</button>
+      <button onclick="setStyle('surface')">Surface</button>
+      <button onclick="setStyle('ball+stick')">Atoms</button>
+      <button onclick="enterVR()">Enter VR / AR</button>
+    </div>
+
+    <div id="viewport" class="viewer-stage"></div>
+
+    <h2 style="font-size:1.4rem;color:#f0f1f5;margin:32px 0 12px;">Reading the structure</h2>
+    <ul style="margin:8px 0 16px 24px;list-style:disc;">
+      <li><strong>NKG2D ECD (chain A):</strong> the C-type lectin-like fold that recognizes MICA. This is the residue range (79-216) used in the chimeric construct.</li>
+      <li><strong>MICA (chain B):</strong> stress-induced ligand expressed selectively on transformed and stressed cells — the tumor-restricted signal the chimera responds to.</li>
+      <li><strong>The interface:</strong> NKG2D engages MICA's α1-α2 platform via a specific contact surface. The published crystallographic interface guides the chimera's selectivity argument.</li>
+    </ul>
+
+    <h2 style="font-size:1.4rem;color:#f0f1f5;margin:32px 0 12px;">What is NOT shown here</h2>
+    <ul style="margin:8px 0 16px 24px;list-style:disc;">
+      <li>The chimera fusion construct itself — no published crystal structure exists yet (in silico design only)</li>
+      <li>The elephant LIF6 effector domain — modeled by AlphaFold3; full 3D rendering will be released alongside the wet-lab validation data Q3-Q4 2026</li>
+      <li>The mitochondrial localization context</li>
+    </ul>
+
+    <h2 style="font-size:1.4rem;color:#f0f1f5;margin:32px 0 12px;">Open methodology</h2>
+    <p>The structural validation pipeline (AlphaFold3 + RoseTTAFold all-atom + PyMOL + Rosetta refinement) for the NKG2D-LIF6 chimera is documented at <a href="https://github.com/nightbox-llc/chimera-design-notes/blob/main/METHODS.md" style="color:#6b5bff;">github.com/nightbox-llc/chimera-design-notes/METHODS.md</a> under CC BY 4.0.</p>
+
+    <h2 style="font-size:1.4rem;color:#f0f1f5;margin:32px 0 12px;">Use this viewer in your own work</h2>
+    <p>The viewer is open-source — pulls PDB files directly from the RCSB CDN, uses the NGL viewer JS library (MIT license), and is fully embeddable. Right-click → "Inspect" to see the implementation. Or fork at <a href="https://github.com/nightbox-llc/nightbox-website" style="color:#6b5bff;">github.com/nightbox-llc/nightbox-website</a>.</p>
+
+    <p style="color:#9ea2ab;font-size:0.9rem;margin-top:32px;border-top:1px solid #2a2d35;padding-top:16px;">PDB structures shown are public domain (CC0) per RCSB Protein Data Bank policy. Molecular visualization powered by <a href="https://nglviewer.org/" style="color:#6b5bff;">NGL Viewer</a> (MIT license, Rose et al. 2018).</p>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/ngl@2.0.1/dist/ngl.js"></script>
+  <script>
+    let stage, currentComp;
+    document.addEventListener('DOMContentLoaded', () => {
+      stage = new NGL.Stage('viewport', { backgroundColor: '#0a0c10' });
+      window.addEventListener('resize', () => stage.handleResize());
+      loadPdb('1hyr');
+    });
+    function loadPdb(pdbId) {
+      stage.removeAllComponents();
+      stage.loadFile(`https://files.rcsb.org/download/${pdbId.toUpperCase()}.pdb`).then(comp => {
+        currentComp = comp;
+        comp.addRepresentation('cartoon', { colorScheme: 'chainid' });
+        comp.addRepresentation('ball+stick', { sele: 'hetero and not water', colorScheme: 'element' });
+        stage.autoView();
+      }).catch(e => {
+        document.getElementById('viewport').innerHTML = '<p style="color:#cfd2d7;padding:20px;text-align:center;">Could not load structure. Please ensure WebGL is enabled.</p>';
+      });
+    }
+    function setStyle(style) {
+      if (!currentComp) return;
+      currentComp.removeAllRepresentations();
+      currentComp.addRepresentation(style, { colorScheme: 'chainid' });
+    }
+    function enterVR() {
+      if (navigator.xr) {
+        alert('WebXR session: tap your VR/AR headset Browser button or use a WebXR-compatible browser (Quest Browser, Mozilla Reality, AR-capable Chrome). The molecule will appear in your environment.');
+      } else {
+        alert('WebXR not detected. Open this page on a Meta Quest Browser, Apple Vision Pro Safari, or AR-capable mobile Chrome to view the structure in VR/AR.');
+      }
+    }
+  </script>
+</body>
+</html>

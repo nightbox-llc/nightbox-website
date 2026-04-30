@@ -41,6 +41,9 @@
 - [Home](https://nightboxllc.com/): one-line thesis, lead asset, status
 - [About](https://nightboxllc.com/about): mission, approach, founder story, legal
 - [Research](https://nightboxllc.com/research): construct design, in silico results, mechanism diagram
+- [3D Molecular Viewer](https://nightboxllc.com/3d): WebXR / AR / VR interactive viewer for NKG2D-MICA recognition complex (PDB 1HYR)
+- [Glossary](https://nightboxllc.com/glossary): plain-English definitions of every domain term used on the site, with canonical references
+- [Launch News](https://nightboxllc.com/news/2026-04-30-launch): 2026-04-30 open in silico package release announcement
 - [Team](https://nightboxllc.com/team): founder + AI agent stack as research infrastructure
 - [Roadmap](https://nightboxllc.com/roadmap): construct → pre-IND → IND → Phase 1 timeline
 - [Federal](https://nightboxllc.com/federal): full portfolio brief for federal grant programs (NCI SBIR, ARPA-H, BARDA, NSF SBIR)
