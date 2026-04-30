@@ -64,21 +64,27 @@
     </div>
   </nav>
   <main style="max-width:880px;margin:120px auto 80px;padding:0 24px;">
-    <h1 class="gradient-text" style="font-size:3rem;font-weight:800;margin-bottom:24px;">About Nightbox</h1>
+    <h1 class="gradient-text" style="font-size:3rem;font-weight:800;margin-bottom:24px;">About</h1>
     <p style="font-size:1.2rem;line-height:1.7;color:#cfd2d7;margin-bottom:24px;">
-      Nightbox LLC is a Wyoming-incorporated, LA-area computational biology and gene therapy company founded in February 2026. We build first-in-class chimeric receptor-effector constructs for solid tumor oncology, designed end-to-end through an AI-augmented research loop.
+      Nightbox is a one-person biotech, incorporated in Wyoming, run out of the LA area. Started in February. The work is gene therapy for solid tumors, built around a chimera that fuses a human stress-ligand receptor with an elephant pseudogene effector.
     </p>
-    <h2 style="font-size:1.8rem;margin:40px 0 16px;">Mission</h2>
-    <p style="font-size:1.1rem;line-height:1.7;color:#cfd2d7;margin-bottom:24px;">
-      Cancer is not a disease — it is an evolutionary reversion. Single cells abandoning multicellular cooperation. Our mission is to reverse that reversion at the source by encoding nature's best cancer-resistance mechanisms directly into therapeutic gene constructs.
-    </p>
-    <h2 style="font-size:1.8rem;margin:40px 0 16px;">Approach</h2>
-    <p style="font-size:1.1rem;line-height:1.7;color:#cfd2d7;margin-bottom:24px;">
-      We bypass the manufacturing complexity of cell therapies by encoding selectivity (the human NKG2D stress-ligand recognition module) and killing (the elephant LIF6 mitochondrial apoptosis effector) into a single 2,123 bp gene therapy payload deliverable via AAV9. One construct. No autologous cell processing. Clean intellectual property whitespace.
-    </p>
-    <h2 style="font-size:1.8rem;margin:40px 0 16px;">Operating Model</h2>
+    <h2 style="font-size:1.8rem;margin:40px 0 16px;">Why</h2>
     <p style="font-size:1.1rem;line-height:1.7;color:#cfd2d7;margin-bottom:16px;">
-      Solo founder, AI-augmented. The R&amp;D loop names its tools explicitly:
+      Cancer isn't really a disease in the way pneumonia is. It's a single cell forgetting that it's part of a body — an evolutionary reversion to the unicellular state our ancestors left behind. Most of the field treats this as a war against tumors. I think it's closer to debugging a long-running system that has corrupted its own cooperation rules.
+    </p>
+    <p style="font-size:1.1rem;line-height:1.7;color:#cfd2d7;margin-bottom:24px;">
+      Elephants are the case study that pulled me in. A hundred times more cells than us, and roughly a quarter the cancer mortality. The mechanism is partly TP53 copy-number expansion and partly a re-functionalized pseudogene called LIF6 that they use as a mitochondrial kill switch when DNA damage piles up. So the obvious question: can you write that kill switch into a single AAV9 construct and gate it on a tumor-restricted stress signal? That's the company.
+    </p>
+    <h2 style="font-size:1.8rem;margin:40px 0 16px;">How</h2>
+    <p style="font-size:1.1rem;line-height:1.7;color:#cfd2d7;margin-bottom:24px;">
+      One construct, 2,123 bp. NKG2D ECD up front (binds MICA/MICB on stressed and transformed cells, basically absent from healthy tissue). P2A linker. Codon-optimized elephant LIF6 in the back, mitochondrial localization signal preserved. Packaged in AAV9. No T-cell extraction, no autologous processing, no eight-figure manufacturing footprint. The IP whitespace on this specific fusion is genuinely clean — that's the part I checked first.
+    </p>
+    <h2 style="font-size:1.8rem;margin:40px 0 16px;">How the work actually gets done</h2>
+    <p style="font-size:1.1rem;line-height:1.7;color:#cfd2d7;margin-bottom:16px;">
+      It's me and an agent stack. That sounds like marketing — it isn't. The agent doesn't write the science. It compresses the operational floor: scanning patent corpora, cross-checking competitive pipelines, running freedom-to-operate against millions of documents, drafting regulatory paperwork, writing codon-optimization scripts. Three years ago each of those was a headcount. Now they're API calls.
+    </p>
+    <p style="font-size:1.1rem;line-height:1.7;color:#cfd2d7;margin-bottom:16px;">
+      The named pieces:
     </p>
     <ul style="font-size:1.05rem;line-height:1.8;color:#cfd2d7;list-style:disc;padding-left:24px;margin-bottom:24px;">
       <li><strong>Structural prediction:</strong> AlphaFold3, RoseTTAFold, ESM-IF for inverse folding</li>
@@ -87,12 +93,12 @@
       <li><strong>Source repository:</strong> <a href="https://github.com/nightbox-llc/chimera-design-notes" style="color:#6b5bff;">github.com/nightbox-llc/chimera-design-notes</a> (methods + design documents, CC BY 4.0)</li>
     </ul>
     <p style="font-size:1.05rem;line-height:1.7;color:#9ea2ab;margin-bottom:24px;">
-      The AI agent is research infrastructure — a reproducible computational platform, not a teammate, not a co-founder. We treat AI-augmented R&amp;D the way wet-labs treat their automation stack: named, versioned, open where safe.
+      The agent isn't a co-founder. It doesn't get equity. It's plumbing — same way a wet-lab treats its automated liquid-handlers: named tools, version pins, methods open where it's safe to be open.
     </p>
 
-    <h2 style="font-size:1.8rem;margin:40px 0 16px;">What's not yet validated</h2>
+    <h2 style="font-size:1.8rem;margin:40px 0 16px;">What I haven't proven yet</h2>
     <p style="font-size:1.05rem;line-height:1.7;color:#cfd2d7;margin-bottom:12px;">
-      Intellectual honesty matters. The following are <strong>open questions</strong> we have not yet answered and will tackle in the wet-lab program:
+      Most pre-clinical biotech sites duck this question. Here's the honest list of what could still kill the program and what the wet-lab is structured to find out:
     </p>
     <ul style="font-size:1.05rem;line-height:1.8;color:#cfd2d7;list-style:disc;padding-left:24px;margin-bottom:24px;">
       <li>Folding behavior of elephant LIF6 in human cellular context — predicted stable, not yet expressed</li>
